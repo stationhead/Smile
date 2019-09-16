@@ -21,6 +21,8 @@
 		D2DBF1EF1D04D54300166F7B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DBF1ED1D04D54300166F7B /* Utils.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Smile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Smile.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Smile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Smile.framework */; };
+		E946254523300ADC008391DA /* Emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = E946254323300ADC008391DA /* Emoji.json */; };
+		E946254623300ADC008391DA /* Categories.json in Resources */ = {isa = PBXBuildFile; fileRef = E946254423300ADC008391DA /* Categories.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		D5C6298C1C3A8BBD007F7B7C /* Info-Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Mac.plist"; sourceTree = "<group>"; };
 		D5C629901C3A8BDA007F7B7C /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		D5C629911C3A8BDA007F7B7C /* Info-Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Mac.plist"; sourceTree = "<group>"; };
+		E946254323300ADC008391DA /* Emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Emoji.json; sourceTree = "<group>"; };
+		E946254423300ADC008391DA /* Categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Categories.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		D2DBF1E61D04C70A00166F7B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				E946254423300ADC008391DA /* Categories.json */,
+				E946254323300ADC008391DA /* Emoji.json */,
 				D23991E31D10AA3600CA2E5D /* Categories.swift */,
 				D2DBF1EA1D04D1EB00166F7B /* Emoji.swift */,
 				D2DBF1E71D04C71300166F7B /* Smile.swift */,
@@ -301,6 +307,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E946254523300ADC008391DA /* Emoji.json in Resources */,
+				E946254623300ADC008391DA /* Categories.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
