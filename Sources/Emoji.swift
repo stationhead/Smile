@@ -1,1494 +1,1498 @@
-public let emojiList: [String: String] = [
-  "grinning": "😀",
-  "smiley": "😃",
-  "smile": "😄",
-  "grin": "😁",
-  "laughing": "😆",
-  "sweat_smile": "😅",
-  "joy": "😂",
-  "rofl": "🤣",
-  "relaxed": "☺️",
-  "blush": "😊",
-  "innocent": "😇",
-  "slightly_smiling_face": "🙂",
-  "upside_down_face": "🙃",
-  "wink": "😉",
-  "relieved": "😌",
-  "heart_eyes": "😍",
-  "kissing_heart": "😘",
-  "kissing": "😗",
-  "kissing_smiling_eyes": "😙",
-  "kissing_closed_eyes": "😚",
-  "yum": "😋",
-  "stuck_out_tongue_winking_eye": "😜",
-  "stuck_out_tongue_closed_eyes": "😝",
-  "stuck_out_tongue": "😛",
-  "money_mouth_face": "🤑",
-  "hugs": "🤗",
-  "nerd_face": "🤓",
-  "sunglasses": "😎",
-  "clown_face": "🤡",
-  "cowboy_hat_face": "🤠",
-  "smirk": "😏",
-  "unamused": "😒",
-  "disappointed": "😞",
-  "pensive": "😔",
-  "worried": "😟",
-  "confused": "😕",
-  "slightly_frowning_face": "🙁",
-  "frowning_face": "☹️",
-  "persevere": "😣",
-  "confounded": "😖",
-  "tired_face": "😫",
-  "weary": "😩",
-  "triumph": "😤",
-  "angry": "😠",
-  "rage": "😡",
-  "no_mouth": "😶",
-  "neutral_face": "😐",
-  "expressionless": "😑",
-  "hushed": "😯",
-  "frowning": "😦",
-  "anguished": "😧",
-  "open_mouth": "😮",
-  "astonished": "😲",
-  "dizzy_face": "😵",
-  "flushed": "😳",
-  "scream": "😱",
-  "fearful": "😨",
-  "cold_sweat": "😰",
-  "cry": "😢",
-  "disappointed_relieved": "😥",
-  "drooling_face": "🤤",
-  "sob": "😭",
-  "sweat": "😓",
-  "sleepy": "😪",
-  "sleeping": "😴",
-  "roll_eyes": "🙄",
-  "thinking": "🤔",
-  "lying_face": "🤥",
-  "grimacing": "😬",
-  "zipper_mouth_face": "🤐",
-  "nauseated_face": "🤢",
-  "sneezing_face": "🤧",
-  "mask": "😷",
-  "face_with_thermometer": "🤒",
-  "face_with_head_bandage": "🤕",
-  "smiling_imp": "😈",
-  "imp": "👿",
-  "japanese_ogre": "👹",
-  "japanese_goblin": "👺",
-  "hankey": "💩",
-  "ghost": "👻",
-  "skull": "💀",
-  "skull_and_crossbones": "☠️",
-  "alien": "👽",
-  "space_invader": "👾",
-  "robot": "🤖",
-  "jack_o_lantern": "🎃",
-  "smiley_cat": "😺",
-  "smile_cat": "😸",
-  "joy_cat": "😹",
-  "heart_eyes_cat": "😻",
-  "smirk_cat": "😼",
-  "kissing_cat": "😽",
-  "scream_cat": "🙀",
-  "crying_cat_face": "😿",
-  "pouting_cat": "😾",
-  "open_hands": "👐",
-  "raised_hands": "🙌",
-  "clap": "👏",
-  "pray": "🙏",
-  "handshake": "🤝",
-  "+1": "👍",
-  "-1": "👎",
-  "fist_oncoming": "👊",
-  "fist_raised": "✊",
-  "fist_left": "🤛",
-  "fist_right": "🤜",
-  "crossed_fingers": "🤞",
-  "v": "✌️",
-  "metal": "🤘",
-  "ok_hand": "👌",
-  "point_left": "👈",
-  "point_right": "👉",
-  "point_up_2": "👆",
-  "point_down": "👇",
-  "point_up": "☝️",
-  "hand": "✋",
-  "raised_back_of_hand": "🤚",
-  "raised_hand_with_fingers_splayed": "🖐",
-  "vulcan_salute": "🖖",
-  "wave": "👋",
-  "call_me_hand": "🤙",
-  "muscle": "💪",
-  "middle_finger": "🖕",
-  "writing_hand": "✍️",
-  "selfie": "🤳",
-  "nail_care": "💅",
-  "ring": "💍",
-  "lipstick": "💄",
-  "kiss": "💋",
-  "lips": "👄",
-  "tongue": "👅",
-  "ear": "👂",
-  "nose": "👃",
-  "footprints": "👣",
-  "eye": "👁",
-  "eyes": "👀",
-  "speaking_head": "🗣",
-  "bust_in_silhouette": "👤",
-  "busts_in_silhouette": "👥",
-  "baby": "👶",
-  "boy": "👦",
-  "girl": "👧",
-  "man": "👨",
-  "woman": "👩",
-  "blonde_woman": "👱‍♀",
-  "blonde_man": "👱",
-  "older_man": "👴",
-  "older_woman": "👵",
-  "man_with_gua_pi_mao": "👲",
-  "woman_with_turban": "👳‍♀",
-  "man_with_turban": "👳",
-  "policewoman": "👮‍♀",
-  "policeman": "👮",
-  "construction_worker_woman": "👷‍♀",
-  "construction_worker_man": "👷",
-  "guardswoman": "💂‍♀",
-  "guardsman": "💂",
-  "female_detective": "🕵️‍♀️",
-  "male_detective": "🕵",
-  "woman_health_worker": "👩‍⚕",
-  "man_health_worker": "👨‍⚕",
-  "woman_farmer": "👩‍🌾",
-  "man_farmer": "👨‍🌾",
-  "woman_cook": "👩‍🍳",
-  "man_cook": "👨‍🍳",
-  "woman_student": "👩‍🎓",
-  "man_student": "👨‍🎓",
-  "woman_singer": "👩‍🎤",
-  "man_singer": "👨‍🎤",
-  "woman_teacher": "👩‍🏫",
-  "man_teacher": "👨‍🏫",
-  "woman_factory_worker": "👩‍🏭",
-  "man_factory_worker": "👨‍🏭",
-  "woman_technologist": "👩‍💻",
-  "man_technologist": "👨‍💻",
-  "woman_office_worker": "👩‍💼",
-  "man_office_worker": "👨‍💼",
-  "woman_mechanic": "👩‍🔧",
-  "man_mechanic": "👨‍🔧",
-  "woman_scientist": "👩‍🔬",
-  "man_scientist": "👨‍🔬",
-  "woman_artist": "👩‍🎨",
-  "man_artist": "👨‍🎨",
-  "woman_firefighter": "👩‍🚒",
-  "man_firefighter": "👨‍🚒",
-  "woman_pilot": "👩‍✈",
-  "man_pilot": "👨‍✈",
-  "woman_astronaut": "👩‍🚀",
-  "man_astronaut": "👨‍🚀",
-  "woman_judge": "👩‍⚖",
-  "man_judge": "👨‍⚖",
-  "mrs_claus": "🤶",
-  "santa": "🎅",
-  "princess": "👸",
-  "prince": "🤴",
-  "bride_with_veil": "👰",
-  "man_in_tuxedo": "🤵",
-  "angel": "👼",
-  "pregnant_woman": "🤰",
-  "bowing_woman": "🙇‍♀",
-  "bowing_man": "🙇",
-  "tipping_hand_woman": "💁",
-  "tipping_hand_man": "💁‍♂",
-  "no_good_woman": "🙅",
-  "no_good_man": "🙅‍♂",
-  "ok_woman": "🙆",
-  "ok_man": "🙆‍♂",
-  "raising_hand_woman": "🙋",
-  "raising_hand_man": "🙋‍♂",
-  "woman_facepalming": "🤦‍♀",
-  "man_facepalming": "🤦‍♂",
-  "woman_shrugging": "🤷‍♀",
-  "man_shrugging": "🤷‍♂",
-  "pouting_woman": "🙎",
-  "pouting_man": "🙎‍♂",
-  "frowning_woman": "🙍",
-  "frowning_man": "🙍‍♂",
-  "haircut_woman": "💇",
-  "haircut_man": "💇‍♂",
-  "massage_woman": "💆",
-  "massage_man": "💆‍♂",
-  "business_suit_levitating": "🕴",
-  "dancer": "💃",
-  "man_dancing": "🕺",
-  "dancing_women": "👯",
-  "dancing_men": "👯‍♂",
-  "walking_woman": "🚶‍♀",
-  "walking_man": "🚶",
-  "running_woman": "🏃‍♀",
-  "running_man": "🏃",
-  "couple": "👫",
-  "two_women_holding_hands": "👭",
-  "two_men_holding_hands": "👬",
-  "couple_with_heart_woman_man": "💑",
-  "couple_with_heart_woman_woman": "👩‍❤️‍👩",
-  "couple_with_heart_man_man": "👨‍❤️‍👨",
-  "couplekiss_man_woman": "💏",
-  "couplekiss_woman_woman": "👩‍❤️‍💋‍👩",
-  "couplekiss_man_man": "👨‍❤️‍💋‍👨",
-  "family_man_woman_boy": "👪",
-  "family_man_woman_girl": "👨‍👩‍👧",
-  "family_man_woman_girl_boy": "👨‍👩‍👧‍👦",
-  "family_man_woman_boy_boy": "👨‍👩‍👦‍👦",
-  "family_man_woman_girl_girl": "👨‍👩‍👧‍👧",
-  "family_woman_woman_boy": "👩‍👩‍👦",
-  "family_woman_woman_girl": "👩‍👩‍👧",
-  "family_woman_woman_girl_boy": "👩‍👩‍👧‍👦",
-  "family_woman_woman_boy_boy": "👩‍👩‍👦‍👦",
-  "family_woman_woman_girl_girl": "👩‍👩‍👧‍👧",
-  "family_man_man_boy": "👨‍👨‍👦",
-  "family_man_man_girl": "👨‍👨‍👧",
-  "family_man_man_girl_boy": "👨‍👨‍👧‍👦",
-  "family_man_man_boy_boy": "👨‍👨‍👦‍👦",
-  "family_man_man_girl_girl": "👨‍👨‍👧‍👧",
-  "family_woman_boy": "👩‍👦",
-  "family_woman_girl": "👩‍👧",
-  "family_woman_girl_boy": "👩‍👧‍👦",
-  "family_woman_boy_boy": "👩‍👦‍👦",
-  "family_woman_girl_girl": "👩‍👧‍👧",
-  "family_man_boy": "👨‍👦",
-  "family_man_girl": "👨‍👧",
-  "family_man_girl_boy": "👨‍👧‍👦",
-  "family_man_boy_boy": "👨‍👦‍👦",
-  "family_man_girl_girl": "👨‍👧‍👧",
-  "womans_clothes": "👚",
-  "shirt": "👕",
-  "jeans": "👖",
-  "necktie": "👔",
-  "dress": "👗",
-  "bikini": "👙",
-  "kimono": "👘",
-  "high_heel": "👠",
-  "sandal": "👡",
-  "boot": "👢",
-  "mans_shoe": "👞",
-  "athletic_shoe": "👟",
-  "womans_hat": "👒",
-  "tophat": "🎩",
-  "mortar_board": "🎓",
-  "crown": "👑",
-  "rescue_worker_helmet": "⛑",
-  "school_satchel": "🎒",
-  "pouch": "👝",
-  "purse": "👛",
-  "handbag": "👜",
-  "briefcase": "💼",
-  "eyeglasses": "👓",
-  "dark_sunglasses": "🕶",
-  "closed_umbrella": "🌂",
-  "open_umbrella": "☂️",
-  "dog": "🐶",
-  "cat": "🐱",
-  "mouse": "🐭",
-  "hamster": "🐹",
-  "rabbit": "🐰",
-  "fox_face": "🦊",
-  "bear": "🐻",
-  "panda_face": "🐼",
-  "koala": "🐨",
-  "tiger": "🐯",
-  "lion": "🦁",
-  "cow": "🐮",
-  "pig": "🐷",
-  "pig_nose": "🐽",
-  "frog": "🐸",
-  "monkey_face": "🐵",
-  "see_no_evil": "🙈",
-  "hear_no_evil": "🙉",
-  "speak_no_evil": "🙊",
-  "monkey": "🐒",
-  "chicken": "🐔",
-  "penguin": "🐧",
-  "bird": "🐦",
-  "baby_chick": "🐤",
-  "hatching_chick": "🐣",
-  "hatched_chick": "🐥",
-  "duck": "🦆",
-  "eagle": "🦅",
-  "owl": "🦉",
-  "bat": "🦇",
-  "wolf": "🐺",
-  "boar": "🐗",
-  "horse": "🐴",
-  "unicorn": "🦄",
-  "bee": "🐝",
-  "bug": "🐛",
-  "butterfly": "🦋",
-  "snail": "🐌",
-  "shell": "🐚",
-  "beetle": "🐞",
-  "ant": "🐜",
-  "spider": "🕷",
-  "spider_web": "🕸",
-  "turtle": "🐢",
-  "snake": "🐍",
-  "lizard": "🦎",
-  "scorpion": "🦂",
-  "crab": "🦀",
-  "squid": "🦑",
-  "octopus": "🐙",
-  "shrimp": "🦐",
-  "tropical_fish": "🐠",
-  "fish": "🐟",
-  "blowfish": "🐡",
-  "dolphin": "🐬",
-  "shark": "🦈",
-  "whale": "🐳",
-  "whale2": "🐋",
-  "crocodile": "🐊",
-  "leopard": "🐆",
-  "tiger2": "🐅",
-  "water_buffalo": "🐃",
-  "ox": "🐂",
-  "cow2": "🐄",
-  "deer": "🦌",
-  "dromedary_camel": "🐪",
-  "camel": "🐫",
-  "elephant": "🐘",
-  "rhinoceros": "🦏",
-  "gorilla": "🦍",
-  "racehorse": "🐎",
-  "pig2": "🐖",
-  "goat": "🐐",
-  "ram": "🐏",
-  "sheep": "🐑",
-  "dog2": "🐕",
-  "poodle": "🐩",
-  "cat2": "🐈",
-  "rooster": "🐓",
-  "turkey": "🦃",
-  "dove": "🕊",
-  "rabbit2": "🐇",
-  "mouse2": "🐁",
-  "rat": "🐀",
-  "chipmunk": "🐿",
-  "feet": "🐾",
-  "dragon": "🐉",
-  "dragon_face": "🐲",
-  "cactus": "🌵",
-  "christmas_tree": "🎄",
-  "evergreen_tree": "🌲",
-  "deciduous_tree": "🌳",
-  "palm_tree": "🌴",
-  "seedling": "🌱",
-  "herb": "🌿",
-  "shamrock": "☘️",
-  "four_leaf_clover": "🍀",
-  "bamboo": "🎍",
-  "tanabata_tree": "🎋",
-  "leaves": "🍃",
-  "fallen_leaf": "🍂",
-  "maple_leaf": "🍁",
-  "mushroom": "🍄",
-  "ear_of_rice": "🌾",
-  "bouquet": "💐",
-  "tulip": "🌷",
-  "rose": "🌹",
-  "wilted_flower": "🥀",
-  "sunflower": "🌻",
-  "blossom": "🌼",
-  "cherry_blossom": "🌸",
-  "hibiscus": "🌺",
-  "earth_americas": "🌎",
-  "earth_africa": "🌍",
-  "earth_asia": "🌏",
-  "full_moon": "🌕",
-  "waning_gibbous_moon": "🌖",
-  "last_quarter_moon": "🌗",
-  "waning_crescent_moon": "🌘",
-  "new_moon": "🌑",
-  "waxing_crescent_moon": "🌒",
-  "first_quarter_moon": "🌓",
-  "moon": "🌔",
-  "new_moon_with_face": "🌚",
-  "full_moon_with_face": "🌝",
-  "sun_with_face": "🌞",
-  "first_quarter_moon_with_face": "🌛",
-  "last_quarter_moon_with_face": "🌜",
-  "crescent_moon": "🌙",
-  "dizzy": "💫",
-  "star": "⭐️",
-  "star2": "🌟",
-  "sparkles": "✨",
-  "zap": "⚡️",
-  "fire": "🔥",
-  "boom": "💥",
-  "comet": "☄",
-  "sunny": "☀️",
-  "sun_behind_small_cloud": "🌤",
-  "partly_sunny": "⛅️",
-  "sun_behind_large_cloud": "🌥",
-  "sun_behind_rain_cloud": "🌦",
-  "rainbow": "🌈",
-  "cloud": "☁️",
-  "cloud_with_rain": "🌧",
-  "cloud_with_lightning_and_rain": "⛈",
-  "cloud_with_lightning": "🌩",
-  "cloud_with_snow": "🌨",
-  "snowman_with_snow": "☃️",
-  "snowman": "⛄️",
-  "snowflake": "❄️",
-  "wind_face": "🌬",
-  "dash": "💨",
-  "tornado": "🌪",
-  "fog": "🌫",
-  "ocean": "🌊",
-  "droplet": "💧",
-  "sweat_drops": "💦",
-  "umbrella": "☔️",
-  "green_apple": "🍏",
-  "apple": "🍎",
-  "pear": "🍐",
-  "tangerine": "🍊",
-  "lemon": "🍋",
-  "banana": "🍌",
-  "watermelon": "🍉",
-  "grapes": "🍇",
-  "strawberry": "🍓",
-  "melon": "🍈",
-  "cherries": "🍒",
-  "peach": "🍑",
-  "pineapple": "🍍",
-  "kiwi_fruit": "🥝",
-  "avocado": "🥑",
-  "tomato": "🍅",
-  "eggplant": "🍆",
-  "cucumber": "🥒",
-  "carrot": "🥕",
-  "corn": "🌽",
-  "hot_pepper": "🌶",
-  "potato": "🥔",
-  "sweet_potato": "🍠",
-  "chestnut": "🌰",
-  "peanuts": "🥜",
-  "honey_pot": "🍯",
-  "croissant": "🥐",
-  "bread": "🍞",
-  "baguette_bread": "🥖",
-  "cheese": "🧀",
-  "egg": "🥚",
-  "fried_egg": "🍳",
-  "bacon": "🥓",
-  "pancakes": "🥞",
-  "fried_shrimp": "🍤",
-  "poultry_leg": "🍗",
-  "meat_on_bone": "🍖",
-  "pizza": "🍕",
-  "hotdog": "🌭",
-  "hamburger": "🍔",
-  "fries": "🍟",
-  "stuffed_flatbread": "🥙",
-  "taco": "🌮",
-  "burrito": "🌯",
-  "green_salad": "🥗",
-  "shallow_pan_of_food": "🥘",
-  "spaghetti": "🍝",
-  "ramen": "🍜",
-  "stew": "🍲",
-  "fish_cake": "🍥",
-  "sushi": "🍣",
-  "bento": "🍱",
-  "curry": "🍛",
-  "rice": "🍚",
-  "rice_ball": "🍙",
-  "rice_cracker": "🍘",
-  "oden": "🍢",
-  "dango": "🍡",
-  "shaved_ice": "🍧",
-  "ice_cream": "🍨",
-  "icecream": "🍦",
-  "cake": "🍰",
-  "birthday": "🎂",
-  "custard": "🍮",
-  "lollipop": "🍭",
-  "candy": "🍬",
-  "chocolate_bar": "🍫",
-  "popcorn": "🍿",
-  "doughnut": "🍩",
-  "cookie": "🍪",
-  "milk_glass": "🥛",
-  "baby_bottle": "🍼",
-  "coffee": "☕️",
-  "tea": "🍵",
-  "sake": "🍶",
-  "beer": "🍺",
-  "beers": "🍻",
-  "clinking_glasses": "🥂",
-  "wine_glass": "🍷",
-  "tumbler_glass": "🥃",
-  "cocktail": "🍸",
-  "tropical_drink": "🍹",
-  "champagne": "🍾",
-  "spoon": "🥄",
-  "fork_and_knife": "🍴",
-  "plate_with_cutlery": "🍽",
-  "soccer": "⚽️",
-  "basketball": "🏀",
-  "football": "🏈",
-  "baseball": "⚾️",
-  "tennis": "🎾",
-  "volleyball": "🏐",
-  "rugby_football": "🏉",
-  "8ball": "🎱",
-  "ping_pong": "🏓",
-  "badminton": "🏸",
-  "goal_net": "🥅",
-  "ice_hockey": "🏒",
-  "field_hockey": "🏑",
-  "cricket": "🏏",
-  "golf": "⛳️",
-  "bow_and_arrow": "🏹",
-  "fishing_pole_and_fish": "🎣",
-  "boxing_glove": "🥊",
-  "martial_arts_uniform": "🥋",
-  "ice_skate": "⛸",
-  "ski": "🎿",
-  "skier": "⛷",
-  "snowboarder": "🏂",
-  "weight_lifting_woman": "🏋️‍♀️",
-  "weight_lifting_man": "🏋",
-  "person_fencing": "🤺",
-  "women_wrestling": "🤼‍♀",
-  "men_wrestling": "🤼‍♂",
-  "woman_cartwheeling": "🤸‍♀",
-  "man_cartwheeling": "🤸‍♂",
-  "basketball_woman": "⛹️‍♀️",
-  "basketball_man": "⛹",
-  "woman_playing_handball": "🤾‍♀",
-  "man_playing_handball": "🤾‍♂",
-  "golfing_woman": "🏌️‍♀️",
-  "golfing_man": "🏌",
-  "surfing_woman": "🏄‍♀",
-  "surfing_man": "🏄",
-  "swimming_woman": "🏊‍♀",
-  "swimming_man": "🏊",
-  "woman_playing_water_polo": "🤽‍♀",
-  "man_playing_water_polo": "🤽‍♂",
-  "rowing_woman": "🚣‍♀",
-  "rowing_man": "🚣",
-  "horse_racing": "🏇",
-  "biking_woman": "🚴‍♀",
-  "biking_man": "🚴",
-  "mountain_biking_woman": "🚵‍♀",
-  "mountain_biking_man": "🚵",
-  "running_shirt_with_sash": "🎽",
-  "medal_sports": "🏅",
-  "medal_military": "🎖",
-  "1st_place_medal": "🥇",
-  "2nd_place_medal": "🥈",
-  "3rd_place_medal": "🥉",
-  "trophy": "🏆",
-  "rosette": "🏵",
-  "reminder_ribbon": "🎗",
-  "ticket": "🎫",
-  "tickets": "🎟",
-  "circus_tent": "🎪",
-  "woman_juggling": "🤹‍♀",
-  "man_juggling": "🤹‍♂",
-  "performing_arts": "🎭",
-  "art": "🎨",
-  "clapper": "🎬",
-  "microphone": "🎤",
-  "headphones": "🎧",
-  "musical_score": "🎼",
-  "musical_keyboard": "🎹",
-  "drum": "🥁",
-  "saxophone": "🎷",
-  "trumpet": "🎺",
-  "guitar": "🎸",
-  "violin": "🎻",
-  "game_die": "🎲",
-  "dart": "🎯",
-  "bowling": "🎳",
-  "video_game": "🎮",
-  "slot_machine": "🎰",
-  "car": "🚗",
-  "taxi": "🚕",
-  "blue_car": "🚙",
-  "bus": "🚌",
-  "trolleybus": "🚎",
-  "racing_car": "🏎",
-  "police_car": "🚓",
-  "ambulance": "🚑",
-  "fire_engine": "🚒",
-  "minibus": "🚐",
-  "truck": "🚚",
-  "articulated_lorry": "🚛",
-  "tractor": "🚜",
-  "kick_scooter": "🛴",
-  "bike": "🚲",
-  "motor_scooter": "🛵",
-  "motorcycle": "🏍",
-  "rotating_light": "🚨",
-  "oncoming_police_car": "🚔",
-  "oncoming_bus": "🚍",
-  "oncoming_automobile": "🚘",
-  "oncoming_taxi": "🚖",
-  "aerial_tramway": "🚡",
-  "mountain_cableway": "🚠",
-  "suspension_railway": "🚟",
-  "railway_car": "🚃",
-  "train": "🚋",
-  "mountain_railway": "🚞",
-  "monorail": "🚝",
-  "bullettrain_side": "🚄",
-  "bullettrain_front": "🚅",
-  "light_rail": "🚈",
-  "steam_locomotive": "🚂",
-  "train2": "🚆",
-  "metro": "🚇",
-  "tram": "🚊",
-  "station": "🚉",
-  "helicopter": "🚁",
-  "small_airplane": "🛩",
-  "airplane": "✈️",
-  "flight_departure": "🛫",
-  "flight_arrival": "🛬",
-  "rocket": "🚀",
-  "artificial_satellite": "🛰",
-  "seat": "💺",
-  "canoe": "🛶",
-  "boat": "⛵️",
-  "motor_boat": "🛥",
-  "speedboat": "🚤",
-  "passenger_ship": "🛳",
-  "ferry": "⛴",
-  "ship": "🚢",
-  "anchor": "⚓️",
-  "construction": "🚧",
-  "fuelpump": "⛽️",
-  "busstop": "🚏",
-  "vertical_traffic_light": "🚦",
-  "traffic_light": "🚥",
-  "world_map": "🗺",
-  "moyai": "🗿",
-  "statue_of_liberty": "🗽",
-  "fountain": "⛲️",
-  "tokyo_tower": "🗼",
-  "european_castle": "🏰",
-  "japanese_castle": "🏯",
-  "stadium": "🏟",
-  "ferris_wheel": "🎡",
-  "roller_coaster": "🎢",
-  "carousel_horse": "🎠",
-  "parasol_on_ground": "⛱",
-  "beach_umbrella": "🏖",
-  "desert_island": "🏝",
-  "mountain": "⛰",
-  "mountain_snow": "🏔",
-  "mount_fuji": "🗻",
-  "volcano": "🌋",
-  "desert": "🏜",
-  "camping": "🏕",
-  "tent": "⛺️",
-  "railway_track": "🛤",
-  "motorway": "🛣",
-  "building_construction": "🏗",
-  "factory": "🏭",
-  "house": "🏠",
-  "house_with_garden": "🏡",
-  "houses": "🏘",
-  "derelict_house": "🏚",
-  "office": "🏢",
-  "department_store": "🏬",
-  "post_office": "🏣",
-  "european_post_office": "🏤",
-  "hospital": "🏥",
-  "bank": "🏦",
-  "hotel": "🏨",
-  "convenience_store": "🏪",
-  "school": "🏫",
-  "love_hotel": "🏩",
-  "wedding": "💒",
-  "classical_building": "🏛",
-  "church": "⛪️",
-  "mosque": "🕌",
-  "synagogue": "🕍",
-  "kaaba": "🕋",
-  "shinto_shrine": "⛩",
-  "japan": "🗾",
-  "rice_scene": "🎑",
-  "national_park": "🏞",
-  "sunrise": "🌅",
-  "sunrise_over_mountains": "🌄",
-  "stars": "🌠",
-  "sparkler": "🎇",
-  "fireworks": "🎆",
-  "city_sunrise": "🌇",
-  "city_sunset": "🌆",
-  "cityscape": "🏙",
-  "night_with_stars": "🌃",
-  "milky_way": "🌌",
-  "bridge_at_night": "🌉",
-  "foggy": "🌁",
-  "watch": "⌚",
-  "iphone": "📱",
-  "calling": "📲",
-  "computer": "💻",
-  "keyboard": "⌨️",
-  "desktop_computer": "🖥",
-  "printer": "🖨",
-  "computer_mouse": "🖱",
-  "trackball": "🖲",
-  "joystick": "🕹",
-  "clamp": "🗜",
-  "minidisc": "💽",
-  "floppy_disk": "💾",
-  "cd": "💿",
-  "dvd": "📀",
-  "vhs": "📼",
-  "camera": "📷",
-  "camera_flash": "📸",
-  "video_camera": "📹",
-  "movie_camera": "🎥",
-  "film_projector": "📽",
-  "film_strip": "🎞",
-  "telephone_receiver": "📞",
-  "phone": "☎️",
-  "pager": "📟",
-  "fax": "📠",
-  "tv": "📺",
-  "radio": "📻",
-  "studio_microphone": "🎙",
-  "level_slider": "🎚",
-  "control_knobs": "🎛",
-  "stopwatch": "⏱",
-  "timer_clock": "⏲",
-  "alarm_clock": "⏰",
-  "mantelpiece_clock": "🕰",
-  "hourglass": "⌛️",
-  "hourglass_flowing_sand": "⏳",
-  "satellite": "📡",
-  "battery": "🔋",
-  "electric_plug": "🔌",
-  "bulb": "💡",
-  "flashlight": "🔦",
-  "candle": "🕯",
-  "wastebasket": "🗑",
-  "oil_drum": "🛢",
-  "money_with_wings": "💸",
-  "dollar": "💵",
-  "yen": "💴",
-  "euro": "💶",
-  "pound": "💷",
-  "moneybag": "💰",
-  "credit_card": "💳",
-  "gem": "💎",
-  "balance_scale": "⚖️",
-  "wrench": "🔧",
-  "hammer": "🔨",
-  "hammer_and_pick": "⚒",
-  "hammer_and_wrench": "🛠",
-  "pick": "⛏",
-  "nut_and_bolt": "🔩",
-  "gear": "⚙️",
-  "chains": "⛓",
-  "gun": "🔫",
-  "bomb": "💣",
-  "hocho": "🔪",
-  "dagger": "🗡",
-  "crossed_swords": "⚔️",
-  "shield": "🛡",
-  "smoking": "🚬",
-  "coffin": "⚰️",
-  "funeral_urn": "⚱️",
-  "amphora": "🏺",
-  "crystal_ball": "🔮",
-  "prayer_beads": "📿",
-  "barber": "💈",
-  "alembic": "⚗️",
-  "telescope": "🔭",
-  "microscope": "🔬",
-  "hole": "🕳",
-  "pill": "💊",
-  "syringe": "💉",
-  "thermometer": "🌡",
-  "toilet": "🚽",
-  "potable_water": "🚰",
-  "shower": "🚿",
-  "bathtub": "🛁",
-  "bath": "🛀",
-  "bellhop_bell": "🛎",
-  "key": "🔑",
-  "old_key": "🗝",
-  "door": "🚪",
-  "couch_and_lamp": "🛋",
-  "bed": "🛏",
-  "sleeping_bed": "🛌",
-  "framed_picture": "🖼",
-  "shopping": "🛍",
-  "shopping_cart": "🛒",
-  "gift": "🎁",
-  "balloon": "🎈",
-  "flags": "🎏",
-  "ribbon": "🎀",
-  "confetti_ball": "🎊",
-  "tada": "🎉",
-  "dolls": "🎎",
-  "izakaya_lantern": "🏮",
-  "wind_chime": "🎐",
-  "email": "✉️",
-  "envelope_with_arrow": "📩",
-  "incoming_envelope": "📨",
-  "e-mail": "📧",
-  "love_letter": "💌",
-  "inbox_tray": "📥",
-  "outbox_tray": "📤",
-  "package": "📦",
-  "label": "🏷",
-  "mailbox_closed": "📪",
-  "mailbox": "📫",
-  "mailbox_with_mail": "📬",
-  "mailbox_with_no_mail": "📭",
-  "postbox": "📮",
-  "postal_horn": "📯",
-  "scroll": "📜",
-  "page_with_curl": "📃",
-  "page_facing_up": "📄",
-  "bookmark_tabs": "📑",
-  "bar_chart": "📊",
-  "chart_with_upwards_trend": "📈",
-  "chart_with_downwards_trend": "📉",
-  "spiral_notepad": "🗒",
-  "spiral_calendar": "🗓",
-  "calendar": "📆",
-  "date": "📅",
-  "card_index": "📇",
-  "card_file_box": "🗃",
-  "ballot_box": "🗳",
-  "file_cabinet": "🗄",
-  "clipboard": "📋",
-  "file_folder": "📁",
-  "open_file_folder": "📂",
-  "card_index_dividers": "🗂",
-  "newspaper_roll": "🗞",
-  "newspaper": "📰",
-  "notebook": "📓",
-  "notebook_with_decorative_cover": "📔",
-  "ledger": "📒",
-  "closed_book": "📕",
-  "green_book": "📗",
-  "blue_book": "📘",
-  "orange_book": "📙",
-  "books": "📚",
-  "book": "📖",
-  "bookmark": "🔖",
-  "link": "🔗",
-  "paperclip": "📎",
-  "paperclips": "🖇",
-  "triangular_ruler": "📐",
-  "straight_ruler": "📏",
-  "pushpin": "📌",
-  "round_pushpin": "📍",
-  "scissors": "✂️",
-  "pen": "🖊",
-  "fountain_pen": "🖋",
-  "black_nib": "✒️",
-  "paintbrush": "🖌",
-  "crayon": "🖍",
-  "memo": "📝",
-  "pencil2": "✏️",
-  "mag": "🔍",
-  "mag_right": "🔎",
-  "lock_with_ink_pen": "🔏",
-  "closed_lock_with_key": "🔐",
-  "lock": "🔒",
-  "unlock": "🔓",
-  "heart": "❤️",
-  "yellow_heart": "💛",
-  "green_heart": "💚",
-  "blue_heart": "💙",
-  "purple_heart": "💜",
-  "black_heart": "🖤",
-  "broken_heart": "💔",
-  "heavy_heart_exclamation": "❣️",
-  "two_hearts": "💕",
-  "revolving_hearts": "💞",
-  "heartbeat": "💓",
-  "heartpulse": "💗",
-  "sparkling_heart": "💖",
-  "cupid": "💘",
-  "gift_heart": "💝",
-  "heart_decoration": "💟",
-  "peace_symbol": "☮️",
-  "latin_cross": "✝️",
-  "star_and_crescent": "☪️",
-  "om": "🕉",
-  "wheel_of_dharma": "☸️",
-  "star_of_david": "✡️",
-  "six_pointed_star": "🔯",
-  "menorah": "🕎",
-  "yin_yang": "☯️",
-  "orthodox_cross": "☦️",
-  "place_of_worship": "🛐",
-  "ophiuchus": "⛎",
-  "aries": "♈️",
-  "taurus": "♉️",
-  "gemini": "♊️",
-  "cancer": "♋️",
-  "leo": "♌️",
-  "virgo": "♍️",
-  "libra": "♎️",
-  "scorpius": "♏️",
-  "sagittarius": "♐️",
-  "capricorn": "♑️",
-  "aquarius": "♒️",
-  "pisces": "♓️",
-  "id": "🆔",
-  "atom_symbol": "⚛️",
-  "accept": "🉑",
-  "radioactive": "☢️",
-  "biohazard": "☣️",
-  "mobile_phone_off": "📴",
-  "vibration_mode": "📳",
-  "u6709": "🈶",
-  "u7121": "🈚️",
-  "u7533": "🈸",
-  "u55b6": "🈺",
-  "u6708": "🈷️",
-  "eight_pointed_black_star": "✴️",
-  "vs": "🆚",
-  "white_flower": "💮",
-  "ideograph_advantage": "🉐",
-  "secret": "㊙️",
-  "congratulations": "㊗️",
-  "u5408": "🈴",
-  "u6e80": "🈵",
-  "u5272": "🈹",
-  "u7981": "🈲",
-  "a": "🅰️",
-  "b": "🅱️",
-  "ab": "🆎",
-  "cl": "🆑",
-  "o2": "🅾️",
-  "sos": "🆘",
-  "x": "❌",
-  "o": "⭕️",
-  "stop_sign": "🛑",
-  "no_entry": "⛔️",
-  "name_badge": "📛",
-  "no_entry_sign": "🚫",
-  "100": "💯",
-  "anger": "💢",
-  "hotsprings": "♨️",
-  "no_pedestrians": "🚷",
-  "do_not_litter": "🚯",
-  "no_bicycles": "🚳",
-  "non-potable_water": "🚱",
-  "underage": "🔞",
-  "no_mobile_phones": "📵",
-  "no_smoking": "🚭",
-  "exclamation": "❗️",
-  "grey_exclamation": "❕",
-  "question": "❓",
-  "grey_question": "❔",
-  "bangbang": "‼️",
-  "interrobang": "⁉️",
-  "low_brightness": "🔅",
-  "high_brightness": "🔆",
-  "part_alternation_mark": "〽️",
-  "warning": "⚠️",
-  "children_crossing": "🚸",
-  "trident": "🔱",
-  "fleur_de_lis": "⚜️",
-  "beginner": "🔰",
-  "recycle": "♻️",
-  "white_check_mark": "✅",
-  "u6307": "🈯️",
-  "chart": "💹",
-  "sparkle": "❇️",
-  "eight_spoked_asterisk": "✳️",
-  "negative_squared_cross_mark": "❎",
-  "globe_with_meridians": "🌐",
-  "diamond_shape_with_a_dot_inside": "💠",
-  "m": "Ⓜ️",
-  "cyclone": "🌀",
-  "zzz": "💤",
-  "atm": "🏧",
-  "wc": "🚾",
-  "wheelchair": "♿️",
-  "parking": "🅿️",
-  "u7a7a": "🈳",
-  "sa": "🈂️",
-  "passport_control": "🛂",
-  "customs": "🛃",
-  "baggage_claim": "🛄",
-  "left_luggage": "🛅",
-  "mens": "🚹",
-  "womens": "🚺",
-  "baby_symbol": "🚼",
-  "restroom": "🚻",
-  "put_litter_in_its_place": "🚮",
-  "cinema": "🎦",
-  "signal_strength": "📶",
-  "koko": "🈁",
-  "symbols": "🔣",
-  "information_source": "ℹ️",
-  "abc": "🔤",
-  "abcd": "🔡",
-  "capital_abcd": "🔠",
-  "ng": "🆖",
-  "ok": "🆗",
-  "up": "🆙",
-  "cool": "🆒",
-  "new": "🆕",
-  "free": "🆓",
-  "zero": "0️⃣",
-  "one": "1️⃣",
-  "two": "2️⃣",
-  "three": "3️⃣",
-  "four": "4️⃣",
-  "five": "5️⃣",
-  "six": "6️⃣",
-  "seven": "7️⃣",
-  "eight": "8️⃣",
-  "nine": "9️⃣",
-  "keycap_ten": "🔟",
-  "1234": "🔢",
-  "hash": "#️⃣",
-  "asterisk": "*️⃣",
-  "arrow_forward": "▶️",
-  "pause_button": "⏸",
-  "play_or_pause_button": "⏯",
-  "stop_button": "⏹",
-  "record_button": "⏺",
-  "next_track_button": "⏭",
-  "previous_track_button": "⏮",
-  "fast_forward": "⏩",
-  "rewind": "⏪",
-  "arrow_double_up": "⏫",
-  "arrow_double_down": "⏬",
-  "arrow_backward": "◀️",
-  "arrow_up_small": "🔼",
-  "arrow_down_small": "🔽",
-  "arrow_right": "➡️",
-  "arrow_left": "⬅️",
-  "arrow_up": "⬆️",
-  "arrow_down": "⬇️",
-  "arrow_upper_right": "↗️",
-  "arrow_lower_right": "↘️",
-  "arrow_lower_left": "↙️",
-  "arrow_upper_left": "↖️",
-  "arrow_up_down": "↕️",
-  "left_right_arrow": "↔️",
-  "arrow_right_hook": "↪️",
-  "leftwards_arrow_with_hook": "↩️",
-  "arrow_heading_up": "⤴️",
-  "arrow_heading_down": "⤵️",
-  "twisted_rightwards_arrows": "🔀",
-  "repeat": "🔁",
-  "repeat_one": "🔂",
-  "arrows_counterclockwise": "🔄",
-  "arrows_clockwise": "🔃",
-  "musical_note": "🎵",
-  "notes": "🎶",
-  "heavy_plus_sign": "➕",
-  "heavy_minus_sign": "➖",
-  "heavy_division_sign": "➗",
-  "heavy_multiplication_x": "✖️",
-  "heavy_dollar_sign": "💲",
-  "currency_exchange": "💱",
-  "tm": "™️",
-  "copyright": "©️",
-  "registered": "®️",
-  "wavy_dash": "〰️",
-  "curly_loop": "➰",
-  "loop": "➿",
-  "end": "🔚",
-  "back": "🔙",
-  "on": "🔛",
-  "top": "🔝",
-  "soon": "🔜",
-  "heavy_check_mark": "✔️",
-  "ballot_box_with_check": "☑️",
-  "radio_button": "🔘",
-  "white_circle": "⚪️",
-  "black_circle": "⚫️",
-  "red_circle": "🔴",
-  "large_blue_circle": "🔵",
-  "small_red_triangle": "🔺",
-  "small_red_triangle_down": "🔻",
-  "small_orange_diamond": "🔸",
-  "small_blue_diamond": "🔹",
-  "large_orange_diamond": "🔶",
-  "large_blue_diamond": "🔷",
-  "white_square_button": "🔳",
-  "black_square_button": "🔲",
-  "black_small_square": "▪️",
-  "white_small_square": "▫️",
-  "black_medium_small_square": "◾️",
-  "white_medium_small_square": "◽️",
-  "black_medium_square": "◼️",
-  "white_medium_square": "◻️",
-  "black_large_square": "⬛️",
-  "white_large_square": "⬜️",
-  "speaker": "🔈",
-  "mute": "🔇",
-  "sound": "🔉",
-  "loud_sound": "🔊",
-  "bell": "🔔",
-  "no_bell": "🔕",
-  "mega": "📣",
-  "loudspeaker": "📢",
-  "eye_speech_bubble": "👁‍🗨",
-  "speech_balloon": "💬",
-  "thought_balloon": "💭",
-  "right_anger_bubble": "🗯",
-  "spades": "♠️",
-  "clubs": "♣️",
-  "hearts": "♥️",
-  "diamonds": "♦️",
-  "black_joker": "🃏",
-  "flower_playing_cards": "🎴",
-  "mahjong": "🀄️",
-  "clock1": "🕐",
-  "clock2": "🕑",
-  "clock3": "🕒",
-  "clock4": "🕓",
-  "clock5": "🕔",
-  "clock6": "🕕",
-  "clock7": "🕖",
-  "clock8": "🕗",
-  "clock9": "🕘",
-  "clock10": "🕙",
-  "clock11": "🕚",
-  "clock12": "🕛",
-  "clock130": "🕜",
-  "clock230": "🕝",
-  "clock330": "🕞",
-  "clock430": "🕟",
-  "clock530": "🕠",
-  "clock630": "🕡",
-  "clock730": "🕢",
-  "clock830": "🕣",
-  "clock930": "🕤",
-  "clock1030": "🕥",
-  "clock1130": "🕦",
-  "clock1230": "🕧",
-  "white_flag": "🏳️",
-  "black_flag": "🏴",
-  "checkered_flag": "🏁",
-  "triangular_flag_on_post": "🚩",
-  "rainbow_flag": "🏳️‍🌈",
-  "afghanistan": "🇦🇫",
-  "aland_islands": "🇦🇽",
-  "albania": "🇦🇱",
-  "algeria": "🇩🇿",
-  "american_samoa": "🇦🇸",
-  "andorra": "🇦🇩",
-  "angola": "🇦🇴",
-  "anguilla": "🇦🇮",
-  "antarctica": "🇦🇶",
-  "antigua_barbuda": "🇦🇬",
-  "argentina": "🇦🇷",
-  "armenia": "🇦🇲",
-  "aruba": "🇦🇼",
-  "australia": "🇦🇺",
-  "austria": "🇦🇹",
-  "azerbaijan": "🇦🇿",
-  "bahamas": "🇧🇸",
-  "bahrain": "🇧🇭",
-  "bangladesh": "🇧🇩",
-  "barbados": "🇧🇧",
-  "belarus": "🇧🇾",
-  "belgium": "🇧🇪",
-  "belize": "🇧🇿",
-  "benin": "🇧🇯",
-  "bermuda": "🇧🇲",
-  "bhutan": "🇧🇹",
-  "bolivia": "🇧🇴",
-  "caribbean_netherlands": "🇧🇶",
-  "bosnia_herzegovina": "🇧🇦",
-  "botswana": "🇧🇼",
-  "brazil": "🇧🇷",
-  "british_indian_ocean_territory": "🇮🇴",
-  "british_virgin_islands": "🇻🇬",
-  "brunei": "🇧🇳",
-  "bulgaria": "🇧🇬",
-  "burkina_faso": "🇧🇫",
-  "burundi": "🇧🇮",
-  "cape_verde": "🇨🇻",
-  "cambodia": "🇰🇭",
-  "cameroon": "🇨🇲",
-  "canada": "🇨🇦",
-  "canary_islands": "🇮🇨",
-  "cayman_islands": "🇰🇾",
-  "central_african_republic": "🇨🇫",
-  "chad": "🇹🇩",
-  "chile": "🇨🇱",
-  "cn": "🇨🇳",
-  "christmas_island": "🇨🇽",
-  "cocos_islands": "🇨🇨",
-  "colombia": "🇨🇴",
-  "comoros": "🇰🇲",
-  "congo_brazzaville": "🇨🇬",
-  "congo_kinshasa": "🇨🇩",
-  "cook_islands": "🇨🇰",
-  "costa_rica": "🇨🇷",
-  "cote_divoire": "🇨🇮",
-  "croatia": "🇭🇷",
-  "cuba": "🇨🇺",
-  "curacao": "🇨🇼",
-  "cyprus": "🇨🇾",
-  "czech_republic": "🇨🇿",
-  "denmark": "🇩🇰",
-  "djibouti": "🇩🇯",
-  "dominica": "🇩🇲",
-  "dominican_republic": "🇩🇴",
-  "ecuador": "🇪🇨",
-  "egypt": "🇪🇬",
-  "el_salvador": "🇸🇻",
-  "equatorial_guinea": "🇬🇶",
-  "eritrea": "🇪🇷",
-  "estonia": "🇪🇪",
-  "ethiopia": "🇪🇹",
-  "eu": "🇪🇺",
-  "falkland_islands": "🇫🇰",
-  "faroe_islands": "🇫🇴",
-  "fiji": "🇫🇯",
-  "finland": "🇫🇮",
-  "fr": "🇫🇷",
-  "french_guiana": "🇬🇫",
-  "french_polynesia": "🇵🇫",
-  "french_southern_territories": "🇹🇫",
-  "gabon": "🇬🇦",
-  "gambia": "🇬🇲",
-  "georgia": "🇬🇪",
-  "de": "🇩🇪",
-  "ghana": "🇬🇭",
-  "gibraltar": "🇬🇮",
-  "greece": "🇬🇷",
-  "greenland": "🇬🇱",
-  "grenada": "🇬🇩",
-  "guadeloupe": "🇬🇵",
-  "guam": "🇬🇺",
-  "guatemala": "🇬🇹",
-  "guernsey": "🇬🇬",
-  "guinea": "🇬🇳",
-  "guinea_bissau": "🇬🇼",
-  "guyana": "🇬🇾",
-  "haiti": "🇭🇹",
-  "honduras": "🇭🇳",
-  "hong_kong": "🇭🇰",
-  "hungary": "🇭🇺",
-  "iceland": "🇮🇸",
-  "india": "🇮🇳",
-  "indonesia": "🇮🇩",
-  "iran": "🇮🇷",
-  "iraq": "🇮🇶",
-  "ireland": "🇮🇪",
-  "isle_of_man": "🇮🇲",
-  "israel": "🇮🇱",
-  "it": "🇮🇹",
-  "jamaica": "🇯🇲",
-  "jp": "🇯🇵",
-  "crossed_flags": "🎌",
-  "jersey": "🇯🇪",
-  "jordan": "🇯🇴",
-  "kazakhstan": "🇰🇿",
-  "kenya": "🇰🇪",
-  "kiribati": "🇰🇮",
-  "kosovo": "🇽🇰",
-  "kuwait": "🇰🇼",
-  "kyrgyzstan": "🇰🇬",
-  "laos": "🇱🇦",
-  "latvia": "🇱🇻",
-  "lebanon": "🇱🇧",
-  "lesotho": "🇱🇸",
-  "liberia": "🇱🇷",
-  "libya": "🇱🇾",
-  "liechtenstein": "🇱🇮",
-  "lithuania": "🇱🇹",
-  "luxembourg": "🇱🇺",
-  "macau": "🇲🇴",
-  "macedonia": "🇲🇰",
-  "madagascar": "🇲🇬",
-  "malawi": "🇲🇼",
-  "malaysia": "🇲🇾",
-  "maldives": "🇲🇻",
-  "mali": "🇲🇱",
-  "malta": "🇲🇹",
-  "marshall_islands": "🇲🇭",
-  "martinique": "🇲🇶",
-  "mauritania": "🇲🇷",
-  "mauritius": "🇲🇺",
-  "mayotte": "🇾🇹",
-  "mexico": "🇲🇽",
-  "micronesia": "🇫🇲",
-  "moldova": "🇲🇩",
-  "monaco": "🇲🇨",
-  "mongolia": "🇲🇳",
-  "montenegro": "🇲🇪",
-  "montserrat": "🇲🇸",
-  "morocco": "🇲🇦",
-  "mozambique": "🇲🇿",
-  "myanmar": "🇲🇲",
-  "namibia": "🇳🇦",
-  "nauru": "🇳🇷",
-  "nepal": "🇳🇵",
-  "netherlands": "🇳🇱",
-  "new_caledonia": "🇳🇨",
-  "new_zealand": "🇳🇿",
-  "nicaragua": "🇳🇮",
-  "niger": "🇳🇪",
-  "nigeria": "🇳🇬",
-  "niue": "🇳🇺",
-  "norfolk_island": "🇳🇫",
-  "northern_mariana_islands": "🇲🇵",
-  "north_korea": "🇰🇵",
-  "norway": "🇳🇴",
-  "oman": "🇴🇲",
-  "pakistan": "🇵🇰",
-  "palau": "🇵🇼",
-  "palestinian_territories": "🇵🇸",
-  "panama": "🇵🇦",
-  "papua_new_guinea": "🇵🇬",
-  "paraguay": "🇵🇾",
-  "peru": "🇵🇪",
-  "philippines": "🇵🇭",
-  "pitcairn_islands": "🇵🇳",
-  "poland": "🇵🇱",
-  "portugal": "🇵🇹",
-  "puerto_rico": "🇵🇷",
-  "qatar": "🇶🇦",
-  "reunion": "🇷🇪",
-  "romania": "🇷🇴",
-  "ru": "🇷🇺",
-  "rwanda": "🇷🇼",
-  "st_barthelemy": "🇧🇱",
-  "st_helena": "🇸🇭",
-  "st_kitts_nevis": "🇰🇳",
-  "st_lucia": "🇱🇨",
-  "st_pierre_miquelon": "🇵🇲",
-  "st_vincent_grenadines": "🇻🇨",
-  "samoa": "🇼🇸",
-  "san_marino": "🇸🇲",
-  "sao_tome_principe": "🇸🇹",
-  "saudi_arabia": "🇸🇦",
-  "senegal": "🇸🇳",
-  "serbia": "🇷🇸",
-  "seychelles": "🇸🇨",
-  "sierra_leone": "🇸🇱",
-  "singapore": "🇸🇬",
-  "sint_maarten": "🇸🇽",
-  "slovakia": "🇸🇰",
-  "slovenia": "🇸🇮",
-  "solomon_islands": "🇸🇧",
-  "somalia": "🇸🇴",
-  "south_africa": "🇿🇦",
-  "south_georgia_south_sandwich_islands": "🇬🇸",
-  "kr": "🇰🇷",
-  "south_sudan": "🇸🇸",
-  "es": "🇪🇸",
-  "sri_lanka": "🇱🇰",
-  "sudan": "🇸🇩",
-  "suriname": "🇸🇷",
-  "swaziland": "🇸🇿",
-  "sweden": "🇸🇪",
-  "switzerland": "🇨🇭",
-  "syria": "🇸🇾",
-  "taiwan": "🇹🇼",
-  "tajikistan": "🇹🇯",
-  "tanzania": "🇹🇿",
-  "thailand": "🇹🇭",
-  "timor_leste": "🇹🇱",
-  "togo": "🇹🇬",
-  "tokelau": "🇹🇰",
-  "tonga": "🇹🇴",
-  "trinidad_tobago": "🇹🇹",
-  "tunisia": "🇹🇳",
-  "tr": "🇹🇷",
-  "turkmenistan": "🇹🇲",
-  "turks_caicos_islands": "🇹🇨",
-  "tuvalu": "🇹🇻",
-  "uganda": "🇺🇬",
-  "ukraine": "🇺🇦",
-  "united_arab_emirates": "🇦🇪",
-  "gb": "🇬🇧",
-  "us": "🇺🇸",
-  "us_virgin_islands": "🇻🇮",
-  "uruguay": "🇺🇾",
-  "uzbekistan": "🇺🇿",
-  "vanuatu": "🇻🇺",
-  "vatican_city": "🇻🇦",
-  "venezuela": "🇻🇪",
-  "vietnam": "🇻🇳",
-  "wallis_futuna": "🇼🇫",
-  "western_sahara": "🇪🇭",
-  "yemen": "🇾🇪",
-  "zambia": "🇿🇲",
-  "zimbabwe": "🇿🇼",
-  "starstruck": "🤩",
-  "eyebrowraised": "🤨",
-  "mindblown": "🤯",
-  "zany": "🤪",
-  "cursing": "🤬",
-  "vomiting": "🤮",
-  "shushing": "🤫",
-  "giggling": "🤭",
-  "posh": "🧐",
-  "child": "🧒",
-  "adult": "🧑",
-  "senior": "🧓",
-  "headscarf": "🧕",
-  "beard": "🧔",
-  "breastfeeding": "🤱",
-  "mage": "🧙",
-  "fairy": "🧚",
-  "vampire": "🧛",
-  "mermaid": "🧜",
-  "elf": "🧝",
-  "genie": "🧞‍♀️",
-  "zombie": "🧟",
-  "sauna": "🧖",
-  "climber": "🧗",
-  "yoga": "🧘",
-  "ily": "🤟",
-  "praying": "🤲",
-  "brain": "🧠",
-  "orange_heart": "🧡",
-  "scarf": "🧣",
-  "gloves": "🧤",
-  "coat": "🧥",
-  "socks": "🧦",
-  "cap": "🧢",
-  "zebra": "🦓",
-  "giraffe": "🦒",
-  "hedgehog": "🦔",
-  "dino": "🦕",
-  "T-Rex": "🦖",
-  "crickets": "🦗",
-  "coconut": "🥥",
-  "broccoli": "🥦",
-  "pretzel": "🥨",
-  "steak": "🥩",
-  "sandwich": "🥪",
-  "cereal": "🥣",
-  "can": "🥫",
-  "dumpling": "🥟",
-  "fortune_cookie": "🥠",
-  "takeout": "🥡",
-  "pie": "🥧",
-  "softdrink": "🥤",
-  "chopsticks": "🥢",
-  "ufo": "🛸",
-  "sled": "🛷",
-  "curling": "🥌",
-  "England": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-  "Scotland": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-  "Wales": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
-]
+public let emojiList: [String: String] = {
+  var list: [String: String] = [:]
+
+  list["grinning"] = "😀"
+  list["smiley"] = "😃"
+  list["smile"] = "😄"
+  list["grin"] = "😁"
+  list["laughing"] = "😆"
+  list["sweat_smile"] = "😅"
+  list["joy"] = "😂"
+  list["rofl"] = "🤣"
+  list["relaxed"] = "☺️"
+  list["blush"] = "😊"
+  list["innocent"] = "😇"
+  list["slightly_smiling_face"] = "🙂"
+  list["upside_down_face"] = "🙃"
+  list["wink"] = "😉"
+  list["relieved"] = "😌"
+  list["heart_eyes"] = "😍"
+  list["kissing_heart"] = "😘"
+  list["kissing"] = "😗"
+  list["kissing_smiling_eyes"] = "😙"
+  list["kissing_closed_eyes"] = "😚"
+  list["yum"] = "😋"
+  list["stuck_out_tongue_winking_eye"] = "😜"
+  list["stuck_out_tongue_closed_eyes"] = "😝"
+  list["stuck_out_tongue"] = "😛"
+  list["money_mouth_face"] = "🤑"
+  list["hugs"] = "🤗"
+  list["nerd_face"] = "🤓"
+  list["sunglasses"] = "😎"
+  list["clown_face"] = "🤡"
+  list["cowboy_hat_face"] = "🤠"
+  list["smirk"] = "😏"
+  list["unamused"] = "😒"
+  list["disappointed"] = "😞"
+  list["pensive"] = "😔"
+  list["worried"] = "😟"
+  list["confused"] = "😕"
+  list["slightly_frowning_face"] = "🙁"
+  list["frowning_face"] = "☹️"
+  list["persevere"] = "😣"
+  list["confounded"] = "😖"
+  list["tired_face"] = "😫"
+  list["weary"] = "😩"
+  list["triumph"] = "😤"
+  list["angry"] = "😠"
+  list["rage"] = "😡"
+  list["no_mouth"] = "😶"
+  list["neutral_face"] = "😐"
+  list["expressionless"] = "😑"
+  list["hushed"] = "😯"
+  list["frowning"] = "😦"
+  list["anguished"] = "😧"
+  list["open_mouth"] = "😮"
+  list["astonished"] = "😲"
+  list["dizzy_face"] = "😵"
+  list["flushed"] = "😳"
+  list["scream"] = "😱"
+  list["fearful"] = "😨"
+  list["cold_sweat"] = "😰"
+  list["cry"] = "😢"
+  list["disappointed_relieved"] = "😥"
+  list["drooling_face"] = "🤤"
+  list["sob"] = "😭"
+  list["sweat"] = "😓"
+  list["sleepy"] = "😪"
+  list["sleeping"] = "😴"
+  list["roll_eyes"] = "🙄"
+  list["thinking"] = "🤔"
+  list["lying_face"] = "🤥"
+  list["grimacing"] = "😬"
+  list["zipper_mouth_face"] = "🤐"
+  list["nauseated_face"] = "🤢"
+  list["sneezing_face"] = "🤧"
+  list["mask"] = "😷"
+  list["face_with_thermometer"] = "🤒"
+  list["face_with_head_bandage"] = "🤕"
+  list["smiling_imp"] = "😈"
+  list["imp"] = "👿"
+  list["japanese_ogre"] = "👹"
+  list["japanese_goblin"] = "👺"
+  list["hankey"] = "💩"
+  list["ghost"] = "👻"
+  list["skull"] = "💀"
+  list["skull_and_crossbones"] = "☠️"
+  list["alien"] = "👽"
+  list["space_invader"] = "👾"
+  list["robot"] = "🤖"
+  list["jack_o_lantern"] = "🎃"
+  list["smiley_cat"] = "😺"
+  list["smile_cat"] = "😸"
+  list["joy_cat"] = "😹"
+  list["heart_eyes_cat"] = "😻"
+  list["smirk_cat"] = "😼"
+  list["kissing_cat"] = "😽"
+  list["scream_cat"] = "🙀"
+  list["crying_cat_face"] = "😿"
+  list["pouting_cat"] = "😾"
+  list["open_hands"] = "👐"
+  list["raised_hands"] = "🙌"
+  list["clap"] = "👏"
+  list["pray"] = "🙏"
+  list["handshake"] = "🤝"
+  list["+1"] = "👍"
+  list["-1"] = "👎"
+  list["fist_oncoming"] = "👊"
+  list["fist_raised"] = "✊"
+  list["fist_left"] = "🤛"
+  list["fist_right"] = "🤜"
+  list["crossed_fingers"] = "🤞"
+  list["v"] = "✌️"
+  list["metal"] = "🤘"
+  list["ok_hand"] = "👌"
+  list["point_left"] = "👈"
+  list["point_right"] = "👉"
+  list["point_up_2"] = "👆"
+  list["point_down"] = "👇"
+  list["point_up"] = "☝️"
+  list["hand"] = "✋"
+  list["raised_back_of_hand"] = "🤚"
+  list["raised_hand_with_fingers_splayed"] = "🖐"
+  list["vulcan_salute"] = "🖖"
+  list["wave"] = "👋"
+  list["call_me_hand"] = "🤙"
+  list["muscle"] = "💪"
+  list["middle_finger"] = "🖕"
+  list["writing_hand"] = "✍️"
+  list["selfie"] = "🤳"
+  list["nail_care"] = "💅"
+  list["ring"] = "💍"
+  list["lipstick"] = "💄"
+  list["kiss"] = "💋"
+  list["lips"] = "👄"
+  list["tongue"] = "👅"
+  list["ear"] = "👂"
+  list["nose"] = "👃"
+  list["footprints"] = "👣"
+  list["eye"] = "👁"
+  list["eyes"] = "👀"
+  list["speaking_head"] = "🗣"
+  list["bust_in_silhouette"] = "👤"
+  list["busts_in_silhouette"] = "👥"
+  list["baby"] = "👶"
+  list["boy"] = "👦"
+  list["girl"] = "👧"
+  list["man"] = "👨"
+  list["woman"] = "👩"
+  list["blonde_woman"] = "👱‍♀"
+  list["blonde_man"] = "👱"
+  list["older_man"] = "👴"
+  list["older_woman"] = "👵"
+  list["man_with_gua_pi_mao"] = "👲"
+  list["woman_with_turban"] = "👳‍♀"
+  list["man_with_turban"] = "👳"
+  list["policewoman"] = "👮‍♀"
+  list["policeman"] = "👮"
+  list["construction_worker_woman"] = "👷‍♀"
+  list["construction_worker_man"] = "👷"
+  list["guardswoman"] = "💂‍♀"
+  list["guardsman"] = "💂"
+  list["female_detective"] = "🕵️‍♀️"
+  list["male_detective"] = "🕵"
+  list["woman_health_worker"] = "👩‍⚕"
+  list["man_health_worker"] = "👨‍⚕"
+  list["woman_farmer"] = "👩‍🌾"
+  list["man_farmer"] = "👨‍🌾"
+  list["woman_cook"] = "👩‍🍳"
+  list["man_cook"] = "👨‍🍳"
+  list["woman_student"] = "👩‍🎓"
+  list["man_student"] = "👨‍🎓"
+  list["woman_singer"] = "👩‍🎤"
+  list["man_singer"] = "👨‍🎤"
+  list["woman_teacher"] = "👩‍🏫"
+  list["man_teacher"] = "👨‍🏫"
+  list["woman_factory_worker"] = "👩‍🏭"
+  list["man_factory_worker"] = "👨‍🏭"
+  list["woman_technologist"] = "👩‍💻"
+  list["man_technologist"] = "👨‍💻"
+  list["woman_office_worker"] = "👩‍💼"
+  list["man_office_worker"] = "👨‍💼"
+  list["woman_mechanic"] = "👩‍🔧"
+  list["man_mechanic"] = "👨‍🔧"
+  list["woman_scientist"] = "👩‍🔬"
+  list["man_scientist"] = "👨‍🔬"
+  list["woman_artist"] = "👩‍🎨"
+  list["man_artist"] = "👨‍🎨"
+  list["woman_firefighter"] = "👩‍🚒"
+  list["man_firefighter"] = "👨‍🚒"
+  list["woman_pilot"] = "👩‍✈"
+  list["man_pilot"] = "👨‍✈"
+  list["woman_astronaut"] = "👩‍🚀"
+  list["man_astronaut"] = "👨‍🚀"
+  list["woman_judge"] = "👩‍⚖"
+  list["man_judge"] = "👨‍⚖"
+  list["mrs_claus"] = "🤶"
+  list["santa"] = "🎅"
+  list["princess"] = "👸"
+  list["prince"] = "🤴"
+  list["bride_with_veil"] = "👰"
+  list["man_in_tuxedo"] = "🤵"
+  list["angel"] = "👼"
+  list["pregnant_woman"] = "🤰"
+  list["bowing_woman"] = "🙇‍♀"
+  list["bowing_man"] = "🙇"
+  list["tipping_hand_woman"] = "💁"
+  list["tipping_hand_man"] = "💁‍♂"
+  list["no_good_woman"] = "🙅"
+  list["no_good_man"] = "🙅‍♂"
+  list["ok_woman"] = "🙆"
+  list["ok_man"] = "🙆‍♂"
+  list["raising_hand_woman"] = "🙋"
+  list["raising_hand_man"] = "🙋‍♂"
+  list["woman_facepalming"] = "🤦‍♀"
+  list["man_facepalming"] = "🤦‍♂"
+  list["woman_shrugging"] = "🤷‍♀"
+  list["man_shrugging"] = "🤷‍♂"
+  list["pouting_woman"] = "🙎"
+  list["pouting_man"] = "🙎‍♂"
+  list["frowning_woman"] = "🙍"
+  list["frowning_man"] = "🙍‍♂"
+  list["haircut_woman"] = "💇"
+  list["haircut_man"] = "💇‍♂"
+  list["massage_woman"] = "💆"
+  list["massage_man"] = "💆‍♂"
+  list["business_suit_levitating"] = "🕴"
+  list["dancer"] = "💃"
+  list["man_dancing"] = "🕺"
+  list["dancing_women"] = "👯"
+  list["dancing_men"] = "👯‍♂"
+  list["walking_woman"] = "🚶‍♀"
+  list["walking_man"] = "🚶"
+  list["running_woman"] = "🏃‍♀"
+  list["running_man"] = "🏃"
+  list["couple"] = "👫"
+  list["two_women_holding_hands"] = "👭"
+  list["two_men_holding_hands"] = "👬"
+  list["couple_with_heart_woman_man"] = "💑"
+  list["couple_with_heart_woman_woman"] = "👩‍❤️‍👩"
+  list["couple_with_heart_man_man"] = "👨‍❤️‍👨"
+  list["couplekiss_man_woman"] = "💏"
+  list["couplekiss_woman_woman"] = "👩‍❤️‍💋‍👩"
+  list["couplekiss_man_man"] = "👨‍❤️‍💋‍👨"
+  list["family_man_woman_boy"] = "👪"
+  list["family_man_woman_girl"] = "👨‍👩‍👧"
+  list["family_man_woman_girl_boy"] = "👨‍👩‍👧‍👦"
+  list["family_man_woman_boy_boy"] = "👨‍👩‍👦‍👦"
+  list["family_man_woman_girl_girl"] = "👨‍👩‍👧‍👧"
+  list["family_woman_woman_boy"] = "👩‍👩‍👦"
+  list["family_woman_woman_girl"] = "👩‍👩‍👧"
+  list["family_woman_woman_girl_boy"] = "👩‍👩‍👧‍👦"
+  list["family_woman_woman_boy_boy"] = "👩‍👩‍👦‍👦"
+  list["family_woman_woman_girl_girl"] = "👩‍👩‍👧‍👧"
+  list["family_man_man_boy"] = "👨‍👨‍👦"
+  list["family_man_man_girl"] = "👨‍👨‍👧"
+  list["family_man_man_girl_boy"] = "👨‍👨‍👧‍👦"
+  list["family_man_man_boy_boy"] = "👨‍👨‍👦‍👦"
+  list["family_man_man_girl_girl"] = "👨‍👨‍👧‍👧"
+  list["family_woman_boy"] = "👩‍👦"
+  list["family_woman_girl"] = "👩‍👧"
+  list["family_woman_girl_boy"] = "👩‍👧‍👦"
+  list["family_woman_boy_boy"] = "👩‍👦‍👦"
+  list["family_woman_girl_girl"] = "👩‍👧‍👧"
+  list["family_man_boy"] = "👨‍👦"
+  list["family_man_girl"] = "👨‍👧"
+  list["family_man_girl_boy"] = "👨‍👧‍👦"
+  list["family_man_boy_boy"] = "👨‍👦‍👦"
+  list["family_man_girl_girl"] = "👨‍👧‍👧"
+  list["womans_clothes"] = "👚"
+  list["shirt"] = "👕"
+  list["jeans"] = "👖"
+  list["necktie"] = "👔"
+  list["dress"] = "👗"
+  list["bikini"] = "👙"
+  list["kimono"] = "👘"
+  list["high_heel"] = "👠"
+  list["sandal"] = "👡"
+  list["boot"] = "👢"
+  list["mans_shoe"] = "👞"
+  list["athletic_shoe"] = "👟"
+  list["womans_hat"] = "👒"
+  list["tophat"] = "🎩"
+  list["mortar_board"] = "🎓"
+  list["crown"] = "👑"
+  list["rescue_worker_helmet"] = "⛑"
+  list["school_satchel"] = "🎒"
+  list["pouch"] = "👝"
+  list["purse"] = "👛"
+  list["handbag"] = "👜"
+  list["briefcase"] = "💼"
+  list["eyeglasses"] = "👓"
+  list["dark_sunglasses"] = "🕶"
+  list["closed_umbrella"] = "🌂"
+  list["open_umbrella"] = "☂️"
+  list["dog"] = "🐶"
+  list["cat"] = "🐱"
+  list["mouse"] = "🐭"
+  list["hamster"] = "🐹"
+  list["rabbit"] = "🐰"
+  list["fox_face"] = "🦊"
+  list["bear"] = "🐻"
+  list["panda_face"] = "🐼"
+  list["koala"] = "🐨"
+  list["tiger"] = "🐯"
+  list["lion"] = "🦁"
+  list["cow"] = "🐮"
+  list["pig"] = "🐷"
+  list["pig_nose"] = "🐽"
+  list["frog"] = "🐸"
+  list["monkey_face"] = "🐵"
+  list["see_no_evil"] = "🙈"
+  list["hear_no_evil"] = "🙉"
+  list["speak_no_evil"] = "🙊"
+  list["monkey"] = "🐒"
+  list["chicken"] = "🐔"
+  list["penguin"] = "🐧"
+  list["bird"] = "🐦"
+  list["baby_chick"] = "🐤"
+  list["hatching_chick"] = "🐣"
+  list["hatched_chick"] = "🐥"
+  list["duck"] = "🦆"
+  list["eagle"] = "🦅"
+  list["owl"] = "🦉"
+  list["bat"] = "🦇"
+  list["wolf"] = "🐺"
+  list["boar"] = "🐗"
+  list["horse"] = "🐴"
+  list["unicorn"] = "🦄"
+  list["bee"] = "🐝"
+  list["bug"] = "🐛"
+  list["butterfly"] = "🦋"
+  list["snail"] = "🐌"
+  list["shell"] = "🐚"
+  list["beetle"] = "🐞"
+  list["ant"] = "🐜"
+  list["spider"] = "🕷"
+  list["spider_web"] = "🕸"
+  list["turtle"] = "🐢"
+  list["snake"] = "🐍"
+  list["lizard"] = "🦎"
+  list["scorpion"] = "🦂"
+  list["crab"] = "🦀"
+  list["squid"] = "🦑"
+  list["octopus"] = "🐙"
+  list["shrimp"] = "🦐"
+  list["tropical_fish"] = "🐠"
+  list["fish"] = "🐟"
+  list["blowfish"] = "🐡"
+  list["dolphin"] = "🐬"
+  list["shark"] = "🦈"
+  list["whale"] = "🐳"
+  list["whale2"] = "🐋"
+  list["crocodile"] = "🐊"
+  list["leopard"] = "🐆"
+  list["tiger2"] = "🐅"
+  list["water_buffalo"] = "🐃"
+  list["ox"] = "🐂"
+  list["cow2"] = "🐄"
+  list["deer"] = "🦌"
+  list["dromedary_camel"] = "🐪"
+  list["camel"] = "🐫"
+  list["elephant"] = "🐘"
+  list["rhinoceros"] = "🦏"
+  list["gorilla"] = "🦍"
+  list["racehorse"] = "🐎"
+  list["pig2"] = "🐖"
+  list["goat"] = "🐐"
+  list["ram"] = "🐏"
+  list["sheep"] = "🐑"
+  list["dog2"] = "🐕"
+  list["poodle"] = "🐩"
+  list["cat2"] = "🐈"
+  list["rooster"] = "🐓"
+  list["turkey"] = "🦃"
+  list["dove"] = "🕊"
+  list["rabbit2"] = "🐇"
+  list["mouse2"] = "🐁"
+  list["rat"] = "🐀"
+  list["chipmunk"] = "🐿"
+  list["feet"] = "🐾"
+  list["dragon"] = "🐉"
+  list["dragon_face"] = "🐲"
+  list["cactus"] = "🌵"
+  list["christmas_tree"] = "🎄"
+  list["evergreen_tree"] = "🌲"
+  list["deciduous_tree"] = "🌳"
+  list["palm_tree"] = "🌴"
+  list["seedling"] = "🌱"
+  list["herb"] = "🌿"
+  list["shamrock"] = "☘️"
+  list["four_leaf_clover"] = "🍀"
+  list["bamboo"] = "🎍"
+  list["tanabata_tree"] = "🎋"
+  list["leaves"] = "🍃"
+  list["fallen_leaf"] = "🍂"
+  list["maple_leaf"] = "🍁"
+  list["mushroom"] = "🍄"
+  list["ear_of_rice"] = "🌾"
+  list["bouquet"] = "💐"
+  list["tulip"] = "🌷"
+  list["rose"] = "🌹"
+  list["wilted_flower"] = "🥀"
+  list["sunflower"] = "🌻"
+  list["blossom"] = "🌼"
+  list["cherry_blossom"] = "🌸"
+  list["hibiscus"] = "🌺"
+  list["earth_americas"] = "🌎"
+  list["earth_africa"] = "🌍"
+  list["earth_asia"] = "🌏"
+  list["full_moon"] = "🌕"
+  list["waning_gibbous_moon"] = "🌖"
+  list["last_quarter_moon"] = "🌗"
+  list["waning_crescent_moon"] = "🌘"
+  list["new_moon"] = "🌑"
+  list["waxing_crescent_moon"] = "🌒"
+  list["first_quarter_moon"] = "🌓"
+  list["moon"] = "🌔"
+  list["new_moon_with_face"] = "🌚"
+  list["full_moon_with_face"] = "🌝"
+  list["sun_with_face"] = "🌞"
+  list["first_quarter_moon_with_face"] = "🌛"
+  list["last_quarter_moon_with_face"] = "🌜"
+  list["crescent_moon"] = "🌙"
+  list["dizzy"] = "💫"
+  list["star"] = "⭐️"
+  list["star2"] = "🌟"
+  list["sparkles"] = "✨"
+  list["zap"] = "⚡️"
+  list["fire"] = "🔥"
+  list["boom"] = "💥"
+  list["comet"] = "☄"
+  list["sunny"] = "☀️"
+  list["sun_behind_small_cloud"] = "🌤"
+  list["partly_sunny"] = "⛅️"
+  list["sun_behind_large_cloud"] = "🌥"
+  list["sun_behind_rain_cloud"] = "🌦"
+  list["rainbow"] = "🌈"
+  list["cloud"] = "☁️"
+  list["cloud_with_rain"] = "🌧"
+  list["cloud_with_lightning_and_rain"] = "⛈"
+  list["cloud_with_lightning"] = "🌩"
+  list["cloud_with_snow"] = "🌨"
+  list["snowman_with_snow"] = "☃️"
+  list["snowman"] = "⛄️"
+  list["snowflake"] = "❄️"
+  list["wind_face"] = "🌬"
+  list["dash"] = "💨"
+  list["tornado"] = "🌪"
+  list["fog"] = "🌫"
+  list["ocean"] = "🌊"
+  list["droplet"] = "💧"
+  list["sweat_drops"] = "💦"
+  list["umbrella"] = "☔️"
+  list["green_apple"] = "🍏"
+  list["apple"] = "🍎"
+  list["pear"] = "🍐"
+  list["tangerine"] = "🍊"
+  list["lemon"] = "🍋"
+  list["banana"] = "🍌"
+  list["watermelon"] = "🍉"
+  list["grapes"] = "🍇"
+  list["strawberry"] = "🍓"
+  list["melon"] = "🍈"
+  list["cherries"] = "🍒"
+  list["peach"] = "🍑"
+  list["pineapple"] = "🍍"
+  list["kiwi_fruit"] = "🥝"
+  list["avocado"] = "🥑"
+  list["tomato"] = "🍅"
+  list["eggplant"] = "🍆"
+  list["cucumber"] = "🥒"
+  list["carrot"] = "🥕"
+  list["corn"] = "🌽"
+  list["hot_pepper"] = "🌶"
+  list["potato"] = "🥔"
+  list["sweet_potato"] = "🍠"
+  list["chestnut"] = "🌰"
+  list["peanuts"] = "🥜"
+  list["honey_pot"] = "🍯"
+  list["croissant"] = "🥐"
+  list["bread"] = "🍞"
+  list["baguette_bread"] = "🥖"
+  list["cheese"] = "🧀"
+  list["egg"] = "🥚"
+  list["fried_egg"] = "🍳"
+  list["bacon"] = "🥓"
+  list["pancakes"] = "🥞"
+  list["fried_shrimp"] = "🍤"
+  list["poultry_leg"] = "🍗"
+  list["meat_on_bone"] = "🍖"
+  list["pizza"] = "🍕"
+  list["hotdog"] = "🌭"
+  list["hamburger"] = "🍔"
+  list["fries"] = "🍟"
+  list["stuffed_flatbread"] = "🥙"
+  list["taco"] = "🌮"
+  list["burrito"] = "🌯"
+  list["green_salad"] = "🥗"
+  list["shallow_pan_of_food"] = "🥘"
+  list["spaghetti"] = "🍝"
+  list["ramen"] = "🍜"
+  list["stew"] = "🍲"
+  list["fish_cake"] = "🍥"
+  list["sushi"] = "🍣"
+  list["bento"] = "🍱"
+  list["curry"] = "🍛"
+  list["rice"] = "🍚"
+  list["rice_ball"] = "🍙"
+  list["rice_cracker"] = "🍘"
+  list["oden"] = "🍢"
+  list["dango"] = "🍡"
+  list["shaved_ice"] = "🍧"
+  list["ice_cream"] = "🍨"
+  list["icecream"] = "🍦"
+  list["cake"] = "🍰"
+  list["birthday"] = "🎂"
+  list["custard"] = "🍮"
+  list["lollipop"] = "🍭"
+  list["candy"] = "🍬"
+  list["chocolate_bar"] = "🍫"
+  list["popcorn"] = "🍿"
+  list["doughnut"] = "🍩"
+  list["cookie"] = "🍪"
+  list["milk_glass"] = "🥛"
+  list["baby_bottle"] = "🍼"
+  list["coffee"] = "☕️"
+  list["tea"] = "🍵"
+  list["sake"] = "🍶"
+  list["beer"] = "🍺"
+  list["beers"] = "🍻"
+  list["clinking_glasses"] = "🥂"
+  list["wine_glass"] = "🍷"
+  list["tumbler_glass"] = "🥃"
+  list["cocktail"] = "🍸"
+  list["tropical_drink"] = "🍹"
+  list["champagne"] = "🍾"
+  list["spoon"] = "🥄"
+  list["fork_and_knife"] = "🍴"
+  list["plate_with_cutlery"] = "🍽"
+  list["soccer"] = "⚽️"
+  list["basketball"] = "🏀"
+  list["football"] = "🏈"
+  list["baseball"] = "⚾️"
+  list["tennis"] = "🎾"
+  list["volleyball"] = "🏐"
+  list["rugby_football"] = "🏉"
+  list["8ball"] = "🎱"
+  list["ping_pong"] = "🏓"
+  list["badminton"] = "🏸"
+  list["goal_net"] = "🥅"
+  list["ice_hockey"] = "🏒"
+  list["field_hockey"] = "🏑"
+  list["cricket"] = "🏏"
+  list["golf"] = "⛳️"
+  list["bow_and_arrow"] = "🏹"
+  list["fishing_pole_and_fish"] = "🎣"
+  list["boxing_glove"] = "🥊"
+  list["martial_arts_uniform"] = "🥋"
+  list["ice_skate"] = "⛸"
+  list["ski"] = "🎿"
+  list["skier"] = "⛷"
+  list["snowboarder"] = "🏂"
+  list["weight_lifting_woman"] = "🏋️‍♀️"
+  list["weight_lifting_man"] = "🏋"
+  list["person_fencing"] = "🤺"
+  list["women_wrestling"] = "🤼‍♀"
+  list["men_wrestling"] = "🤼‍♂"
+  list["woman_cartwheeling"] = "🤸‍♀"
+  list["man_cartwheeling"] = "🤸‍♂"
+  list["basketball_woman"] = "⛹️‍♀️"
+  list["basketball_man"] = "⛹"
+  list["woman_playing_handball"] = "🤾‍♀"
+  list["man_playing_handball"] = "🤾‍♂"
+  list["golfing_woman"] = "🏌️‍♀️"
+  list["golfing_man"] = "🏌"
+  list["surfing_woman"] = "🏄‍♀"
+  list["surfing_man"] = "🏄"
+  list["swimming_woman"] = "🏊‍♀"
+  list["swimming_man"] = "🏊"
+  list["woman_playing_water_polo"] = "🤽‍♀"
+  list["man_playing_water_polo"] = "🤽‍♂"
+  list["rowing_woman"] = "🚣‍♀"
+  list["rowing_man"] = "🚣"
+  list["horse_racing"] = "🏇"
+  list["biking_woman"] = "🚴‍♀"
+  list["biking_man"] = "🚴"
+  list["mountain_biking_woman"] = "🚵‍♀"
+  list["mountain_biking_man"] = "🚵"
+  list["running_shirt_with_sash"] = "🎽"
+  list["medal_sports"] = "🏅"
+  list["medal_military"] = "🎖"
+  list["1st_place_medal"] = "🥇"
+  list["2nd_place_medal"] = "🥈"
+  list["3rd_place_medal"] = "🥉"
+  list["trophy"] = "🏆"
+  list["rosette"] = "🏵"
+  list["reminder_ribbon"] = "🎗"
+  list["ticket"] = "🎫"
+  list["tickets"] = "🎟"
+  list["circus_tent"] = "🎪"
+  list["woman_juggling"] = "🤹‍♀"
+  list["man_juggling"] = "🤹‍♂"
+  list["performing_arts"] = "🎭"
+  list["art"] = "🎨"
+  list["clapper"] = "🎬"
+  list["microphone"] = "🎤"
+  list["headphones"] = "🎧"
+  list["musical_score"] = "🎼"
+  list["musical_keyboard"] = "🎹"
+  list["drum"] = "🥁"
+  list["saxophone"] = "🎷"
+  list["trumpet"] = "🎺"
+  list["guitar"] = "🎸"
+  list["violin"] = "🎻"
+  list["game_die"] = "🎲"
+  list["dart"] = "🎯"
+  list["bowling"] = "🎳"
+  list["video_game"] = "🎮"
+  list["slot_machine"] = "🎰"
+  list["car"] = "🚗"
+  list["taxi"] = "🚕"
+  list["blue_car"] = "🚙"
+  list["bus"] = "🚌"
+  list["trolleybus"] = "🚎"
+  list["racing_car"] = "🏎"
+  list["police_car"] = "🚓"
+  list["ambulance"] = "🚑"
+  list["fire_engine"] = "🚒"
+  list["minibus"] = "🚐"
+  list["truck"] = "🚚"
+  list["articulated_lorry"] = "🚛"
+  list["tractor"] = "🚜"
+  list["kick_scooter"] = "🛴"
+  list["bike"] = "🚲"
+  list["motor_scooter"] = "🛵"
+  list["motorcycle"] = "🏍"
+  list["rotating_light"] = "🚨"
+  list["oncoming_police_car"] = "🚔"
+  list["oncoming_bus"] = "🚍"
+  list["oncoming_automobile"] = "🚘"
+  list["oncoming_taxi"] = "🚖"
+  list["aerial_tramway"] = "🚡"
+  list["mountain_cableway"] = "🚠"
+  list["suspension_railway"] = "🚟"
+  list["railway_car"] = "🚃"
+  list["train"] = "🚋"
+  list["mountain_railway"] = "🚞"
+  list["monorail"] = "🚝"
+  list["bullettrain_side"] = "🚄"
+  list["bullettrain_front"] = "🚅"
+  list["light_rail"] = "🚈"
+  list["steam_locomotive"] = "🚂"
+  list["train2"] = "🚆"
+  list["metro"] = "🚇"
+  list["tram"] = "🚊"
+  list["station"] = "🚉"
+  list["helicopter"] = "🚁"
+  list["small_airplane"] = "🛩"
+  list["airplane"] = "✈️"
+  list["flight_departure"] = "🛫"
+  list["flight_arrival"] = "🛬"
+  list["rocket"] = "🚀"
+  list["artificial_satellite"] = "🛰"
+  list["seat"] = "💺"
+  list["canoe"] = "🛶"
+  list["boat"] = "⛵️"
+  list["motor_boat"] = "🛥"
+  list["speedboat"] = "🚤"
+  list["passenger_ship"] = "🛳"
+  list["ferry"] = "⛴"
+  list["ship"] = "🚢"
+  list["anchor"] = "⚓️"
+  list["construction"] = "🚧"
+  list["fuelpump"] = "⛽️"
+  list["busstop"] = "🚏"
+  list["vertical_traffic_light"] = "🚦"
+  list["traffic_light"] = "🚥"
+  list["world_map"] = "🗺"
+  list["moyai"] = "🗿"
+  list["statue_of_liberty"] = "🗽"
+  list["fountain"] = "⛲️"
+  list["tokyo_tower"] = "🗼"
+  list["european_castle"] = "🏰"
+  list["japanese_castle"] = "🏯"
+  list["stadium"] = "🏟"
+  list["ferris_wheel"] = "🎡"
+  list["roller_coaster"] = "🎢"
+  list["carousel_horse"] = "🎠"
+  list["parasol_on_ground"] = "⛱"
+  list["beach_umbrella"] = "🏖"
+  list["desert_island"] = "🏝"
+  list["mountain"] = "⛰"
+  list["mountain_snow"] = "🏔"
+  list["mount_fuji"] = "🗻"
+  list["volcano"] = "🌋"
+  list["desert"] = "🏜"
+  list["camping"] = "🏕"
+  list["tent"] = "⛺️"
+  list["railway_track"] = "🛤"
+  list["motorway"] = "🛣"
+  list["building_construction"] = "🏗"
+  list["factory"] = "🏭"
+  list["house"] = "🏠"
+  list["house_with_garden"] = "🏡"
+  list["houses"] = "🏘"
+  list["derelict_house"] = "🏚"
+  list["office"] = "🏢"
+  list["department_store"] = "🏬"
+  list["post_office"] = "🏣"
+  list["european_post_office"] = "🏤"
+  list["hospital"] = "🏥"
+  list["bank"] = "🏦"
+  list["hotel"] = "🏨"
+  list["convenience_store"] = "🏪"
+  list["school"] = "🏫"
+  list["love_hotel"] = "🏩"
+  list["wedding"] = "💒"
+  list["classical_building"] = "🏛"
+  list["church"] = "⛪️"
+  list["mosque"] = "🕌"
+  list["synagogue"] = "🕍"
+  list["kaaba"] = "🕋"
+  list["shinto_shrine"] = "⛩"
+  list["japan"] = "🗾"
+  list["rice_scene"] = "🎑"
+  list["national_park"] = "🏞"
+  list["sunrise"] = "🌅"
+  list["sunrise_over_mountains"] = "🌄"
+  list["stars"] = "🌠"
+  list["sparkler"] = "🎇"
+  list["fireworks"] = "🎆"
+  list["city_sunrise"] = "🌇"
+  list["city_sunset"] = "🌆"
+  list["cityscape"] = "🏙"
+  list["night_with_stars"] = "🌃"
+  list["milky_way"] = "🌌"
+  list["bridge_at_night"] = "🌉"
+  list["foggy"] = "🌁"
+  list["watch"] = "⌚"
+  list["iphone"] = "📱"
+  list["calling"] = "📲"
+  list["computer"] = "💻"
+  list["keyboard"] = "⌨️"
+  list["desktop_computer"] = "🖥"
+  list["printer"] = "🖨"
+  list["computer_mouse"] = "🖱"
+  list["trackball"] = "🖲"
+  list["joystick"] = "🕹"
+  list["clamp"] = "🗜"
+  list["minidisc"] = "💽"
+  list["floppy_disk"] = "💾"
+  list["cd"] = "💿"
+  list["dvd"] = "📀"
+  list["vhs"] = "📼"
+  list["camera"] = "📷"
+  list["camera_flash"] = "📸"
+  list["video_camera"] = "📹"
+  list["movie_camera"] = "🎥"
+  list["film_projector"] = "📽"
+  list["film_strip"] = "🎞"
+  list["telephone_receiver"] = "📞"
+  list["phone"] = "☎️"
+  list["pager"] = "📟"
+  list["fax"] = "📠"
+  list["tv"] = "📺"
+  list["radio"] = "📻"
+  list["studio_microphone"] = "🎙"
+  list["level_slider"] = "🎚"
+  list["control_knobs"] = "🎛"
+  list["stopwatch"] = "⏱"
+  list["timer_clock"] = "⏲"
+  list["alarm_clock"] = "⏰"
+  list["mantelpiece_clock"] = "🕰"
+  list["hourglass"] = "⌛️"
+  list["hourglass_flowing_sand"] = "⏳"
+  list["satellite"] = "📡"
+  list["battery"] = "🔋"
+  list["electric_plug"] = "🔌"
+  list["bulb"] = "💡"
+  list["flashlight"] = "🔦"
+  list["candle"] = "🕯"
+  list["wastebasket"] = "🗑"
+  list["oil_drum"] = "🛢"
+  list["money_with_wings"] = "💸"
+  list["dollar"] = "💵"
+  list["yen"] = "💴"
+  list["euro"] = "💶"
+  list["pound"] = "💷"
+  list["moneybag"] = "💰"
+  list["credit_card"] = "💳"
+  list["gem"] = "💎"
+  list["balance_scale"] = "⚖️"
+  list["wrench"] = "🔧"
+  list["hammer"] = "🔨"
+  list["hammer_and_pick"] = "⚒"
+  list["hammer_and_wrench"] = "🛠"
+  list["pick"] = "⛏"
+  list["nut_and_bolt"] = "🔩"
+  list["gear"] = "⚙️"
+  list["chains"] = "⛓"
+  list["gun"] = "🔫"
+  list["bomb"] = "💣"
+  list["hocho"] = "🔪"
+  list["dagger"] = "🗡"
+  list["crossed_swords"] = "⚔️"
+  list["shield"] = "🛡"
+  list["smoking"] = "🚬"
+  list["coffin"] = "⚰️"
+  list["funeral_urn"] = "⚱️"
+  list["amphora"] = "🏺"
+  list["crystal_ball"] = "🔮"
+  list["prayer_beads"] = "📿"
+  list["barber"] = "💈"
+  list["alembic"] = "⚗️"
+  list["telescope"] = "🔭"
+  list["microscope"] = "🔬"
+  list["hole"] = "🕳"
+  list["pill"] = "💊"
+  list["syringe"] = "💉"
+  list["thermometer"] = "🌡"
+  list["toilet"] = "🚽"
+  list["potable_water"] = "🚰"
+  list["shower"] = "🚿"
+  list["bathtub"] = "🛁"
+  list["bath"] = "🛀"
+  list["bellhop_bell"] = "🛎"
+  list["key"] = "🔑"
+  list["old_key"] = "🗝"
+  list["door"] = "🚪"
+  list["couch_and_lamp"] = "🛋"
+  list["bed"] = "🛏"
+  list["sleeping_bed"] = "🛌"
+  list["framed_picture"] = "🖼"
+  list["shopping"] = "🛍"
+  list["shopping_cart"] = "🛒"
+  list["gift"] = "🎁"
+  list["balloon"] = "🎈"
+  list["flags"] = "🎏"
+  list["ribbon"] = "🎀"
+  list["confetti_ball"] = "🎊"
+  list["tada"] = "🎉"
+  list["dolls"] = "🎎"
+  list["izakaya_lantern"] = "🏮"
+  list["wind_chime"] = "🎐"
+  list["email"] = "✉️"
+  list["envelope_with_arrow"] = "📩"
+  list["incoming_envelope"] = "📨"
+  list["e-mail"] = "📧"
+  list["love_letter"] = "💌"
+  list["inbox_tray"] = "📥"
+  list["outbox_tray"] = "📤"
+  list["package"] = "📦"
+  list["label"] = "🏷"
+  list["mailbox_closed"] = "📪"
+  list["mailbox"] = "📫"
+  list["mailbox_with_mail"] = "📬"
+  list["mailbox_with_no_mail"] = "📭"
+  list["postbox"] = "📮"
+  list["postal_horn"] = "📯"
+  list["scroll"] = "📜"
+  list["page_with_curl"] = "📃"
+  list["page_facing_up"] = "📄"
+  list["bookmark_tabs"] = "📑"
+  list["bar_chart"] = "📊"
+  list["chart_with_upwards_trend"] = "📈"
+  list["chart_with_downwards_trend"] = "📉"
+  list["spiral_notepad"] = "🗒"
+  list["spiral_calendar"] = "🗓"
+  list["calendar"] = "📆"
+  list["date"] = "📅"
+  list["card_index"] = "📇"
+  list["card_file_box"] = "🗃"
+  list["ballot_box"] = "🗳"
+  list["file_cabinet"] = "🗄"
+  list["clipboard"] = "📋"
+  list["file_folder"] = "📁"
+  list["open_file_folder"] = "📂"
+  list["card_index_dividers"] = "🗂"
+  list["newspaper_roll"] = "🗞"
+  list["newspaper"] = "📰"
+  list["notebook"] = "📓"
+  list["notebook_with_decorative_cover"] = "📔"
+  list["ledger"] = "📒"
+  list["closed_book"] = "📕"
+  list["green_book"] = "📗"
+  list["blue_book"] = "📘"
+  list["orange_book"] = "📙"
+  list["books"] = "📚"
+  list["book"] = "📖"
+  list["bookmark"] = "🔖"
+  list["link"] = "🔗"
+  list["paperclip"] = "📎"
+  list["paperclips"] = "🖇"
+  list["triangular_ruler"] = "📐"
+  list["straight_ruler"] = "📏"
+  list["pushpin"] = "📌"
+  list["round_pushpin"] = "📍"
+  list["scissors"] = "✂️"
+  list["pen"] = "🖊"
+  list["fountain_pen"] = "🖋"
+  list["black_nib"] = "✒️"
+  list["paintbrush"] = "🖌"
+  list["crayon"] = "🖍"
+  list["memo"] = "📝"
+  list["pencil2"] = "✏️"
+  list["mag"] = "🔍"
+  list["mag_right"] = "🔎"
+  list["lock_with_ink_pen"] = "🔏"
+  list["closed_lock_with_key"] = "🔐"
+  list["lock"] = "🔒"
+  list["unlock"] = "🔓"
+  list["heart"] = "❤️"
+  list["yellow_heart"] = "💛"
+  list["green_heart"] = "💚"
+  list["blue_heart"] = "💙"
+  list["purple_heart"] = "💜"
+  list["black_heart"] = "🖤"
+  list["broken_heart"] = "💔"
+  list["heavy_heart_exclamation"] = "❣️"
+  list["two_hearts"] = "💕"
+  list["revolving_hearts"] = "💞"
+  list["heartbeat"] = "💓"
+  list["heartpulse"] = "💗"
+  list["sparkling_heart"] = "💖"
+  list["cupid"] = "💘"
+  list["gift_heart"] = "💝"
+  list["heart_decoration"] = "💟"
+  list["peace_symbol"] = "☮️"
+  list["latin_cross"] = "✝️"
+  list["star_and_crescent"] = "☪️"
+  list["om"] = "🕉"
+  list["wheel_of_dharma"] = "☸️"
+  list["star_of_david"] = "✡️"
+  list["six_pointed_star"] = "🔯"
+  list["menorah"] = "🕎"
+  list["yin_yang"] = "☯️"
+  list["orthodox_cross"] = "☦️"
+  list["place_of_worship"] = "🛐"
+  list["ophiuchus"] = "⛎"
+  list["aries"] = "♈️"
+  list["taurus"] = "♉️"
+  list["gemini"] = "♊️"
+  list["cancer"] = "♋️"
+  list["leo"] = "♌️"
+  list["virgo"] = "♍️"
+  list["libra"] = "♎️"
+  list["scorpius"] = "♏️"
+  list["sagittarius"] = "♐️"
+  list["capricorn"] = "♑️"
+  list["aquarius"] = "♒️"
+  list["pisces"] = "♓️"
+  list["id"] = "🆔"
+  list["atom_symbol"] = "⚛️"
+  list["accept"] = "🉑"
+  list["radioactive"] = "☢️"
+  list["biohazard"] = "☣️"
+  list["mobile_phone_off"] = "📴"
+  list["vibration_mode"] = "📳"
+  list["u6709"] = "🈶"
+  list["u7121"] = "🈚️"
+  list["u7533"] = "🈸"
+  list["u55b6"] = "🈺"
+  list["u6708"] = "🈷️"
+  list["eight_pointed_black_star"] = "✴️"
+  list["vs"] = "🆚"
+  list["white_flower"] = "💮"
+  list["ideograph_advantage"] = "🉐"
+  list["secret"] = "㊙️"
+  list["congratulations"] = "㊗️"
+  list["u5408"] = "🈴"
+  list["u6e80"] = "🈵"
+  list["u5272"] = "🈹"
+  list["u7981"] = "🈲"
+  list["a"] = "🅰️"
+  list["b"] = "🅱️"
+  list["ab"] = "🆎"
+  list["cl"] = "🆑"
+  list["o2"] = "🅾️"
+  list["sos"] = "🆘"
+  list["x"] = "❌"
+  list["o"] = "⭕️"
+  list["stop_sign"] = "🛑"
+  list["no_entry"] = "⛔️"
+  list["name_badge"] = "📛"
+  list["no_entry_sign"] = "🚫"
+  list["100"] = "💯"
+  list["anger"] = "💢"
+  list["hotsprings"] = "♨️"
+  list["no_pedestrians"] = "🚷"
+  list["do_not_litter"] = "🚯"
+  list["no_bicycles"] = "🚳"
+  list["non-potable_water"] = "🚱"
+  list["underage"] = "🔞"
+  list["no_mobile_phones"] = "📵"
+  list["no_smoking"] = "🚭"
+  list["exclamation"] = "❗️"
+  list["grey_exclamation"] = "❕"
+  list["question"] = "❓"
+  list["grey_question"] = "❔"
+  list["bangbang"] = "‼️"
+  list["interrobang"] = "⁉️"
+  list["low_brightness"] = "🔅"
+  list["high_brightness"] = "🔆"
+  list["part_alternation_mark"] = "〽️"
+  list["warning"] = "⚠️"
+  list["children_crossing"] = "🚸"
+  list["trident"] = "🔱"
+  list["fleur_de_lis"] = "⚜️"
+  list["beginner"] = "🔰"
+  list["recycle"] = "♻️"
+  list["white_check_mark"] = "✅"
+  list["u6307"] = "🈯️"
+  list["chart"] = "💹"
+  list["sparkle"] = "❇️"
+  list["eight_spoked_asterisk"] = "✳️"
+  list["negative_squared_cross_mark"] = "❎"
+  list["globe_with_meridians"] = "🌐"
+  list["diamond_shape_with_a_dot_inside"] = "💠"
+  list["m"] = "Ⓜ️"
+  list["cyclone"] = "🌀"
+  list["zzz"] = "💤"
+  list["atm"] = "🏧"
+  list["wc"] = "🚾"
+  list["wheelchair"] = "♿️"
+  list["parking"] = "🅿️"
+  list["u7a7a"] = "🈳"
+  list["sa"] = "🈂️"
+  list["passport_control"] = "🛂"
+  list["customs"] = "🛃"
+  list["baggage_claim"] = "🛄"
+  list["left_luggage"] = "🛅"
+  list["mens"] = "🚹"
+  list["womens"] = "🚺"
+  list["baby_symbol"] = "🚼"
+  list["restroom"] = "🚻"
+  list["put_litter_in_its_place"] = "🚮"
+  list["cinema"] = "🎦"
+  list["signal_strength"] = "📶"
+  list["koko"] = "🈁"
+  list["symbols"] = "🔣"
+  list["information_source"] = "ℹ️"
+  list["abc"] = "🔤"
+  list["abcd"] = "🔡"
+  list["capital_abcd"] = "🔠"
+  list["ng"] = "🆖"
+  list["ok"] = "🆗"
+  list["up"] = "🆙"
+  list["cool"] = "🆒"
+  list["new"] = "🆕"
+  list["free"] = "🆓"
+  list["zero"] = "0️⃣"
+  list["one"] = "1️⃣"
+  list["two"] = "2️⃣"
+  list["three"] = "3️⃣"
+  list["four"] = "4️⃣"
+  list["five"] = "5️⃣"
+  list["six"] = "6️⃣"
+  list["seven"] = "7️⃣"
+  list["eight"] = "8️⃣"
+  list["nine"] = "9️⃣"
+  list["keycap_ten"] = "🔟"
+  list["1234"] = "🔢"
+  list["hash"] = "#️⃣"
+  list["asterisk"] = "*️⃣"
+  list["arrow_forward"] = "▶️"
+  list["pause_button"] = "⏸"
+  list["play_or_pause_button"] = "⏯"
+  list["stop_button"] = "⏹"
+  list["record_button"] = "⏺"
+  list["next_track_button"] = "⏭"
+  list["previous_track_button"] = "⏮"
+  list["fast_forward"] = "⏩"
+  list["rewind"] = "⏪"
+  list["arrow_double_up"] = "⏫"
+  list["arrow_double_down"] = "⏬"
+  list["arrow_backward"] = "◀️"
+  list["arrow_up_small"] = "🔼"
+  list["arrow_down_small"] = "🔽"
+  list["arrow_right"] = "➡️"
+  list["arrow_left"] = "⬅️"
+  list["arrow_up"] = "⬆️"
+  list["arrow_down"] = "⬇️"
+  list["arrow_upper_right"] = "↗️"
+  list["arrow_lower_right"] = "↘️"
+  list["arrow_lower_left"] = "↙️"
+  list["arrow_upper_left"] = "↖️"
+  list["arrow_up_down"] = "↕️"
+  list["left_right_arrow"] = "↔️"
+  list["arrow_right_hook"] = "↪️"
+  list["leftwards_arrow_with_hook"] = "↩️"
+  list["arrow_heading_up"] = "⤴️"
+  list["arrow_heading_down"] = "⤵️"
+  list["twisted_rightwards_arrows"] = "🔀"
+  list["repeat"] = "🔁"
+  list["repeat_one"] = "🔂"
+  list["arrows_counterclockwise"] = "🔄"
+  list["arrows_clockwise"] = "🔃"
+  list["musical_note"] = "🎵"
+  list["notes"] = "🎶"
+  list["heavy_plus_sign"] = "➕"
+  list["heavy_minus_sign"] = "➖"
+  list["heavy_division_sign"] = "➗"
+  list["heavy_multiplication_x"] = "✖️"
+  list["heavy_dollar_sign"] = "💲"
+  list["currency_exchange"] = "💱"
+  list["tm"] = "™️"
+  list["copyright"] = "©️"
+  list["registered"] = "®️"
+  list["wavy_dash"] = "〰️"
+  list["curly_loop"] = "➰"
+  list["loop"] = "➿"
+  list["end"] = "🔚"
+  list["back"] = "🔙"
+  list["on"] = "🔛"
+  list["top"] = "🔝"
+  list["soon"] = "🔜"
+  list["heavy_check_mark"] = "✔️"
+  list["ballot_box_with_check"] = "☑️"
+  list["radio_button"] = "🔘"
+  list["white_circle"] = "⚪️"
+  list["black_circle"] = "⚫️"
+  list["red_circle"] = "🔴"
+  list["large_blue_circle"] = "🔵"
+  list["small_red_triangle"] = "🔺"
+  list["small_red_triangle_down"] = "🔻"
+  list["small_orange_diamond"] = "🔸"
+  list["small_blue_diamond"] = "🔹"
+  list["large_orange_diamond"] = "🔶"
+  list["large_blue_diamond"] = "🔷"
+  list["white_square_button"] = "🔳"
+  list["black_square_button"] = "🔲"
+  list["black_small_square"] = "▪️"
+  list["white_small_square"] = "▫️"
+  list["black_medium_small_square"] = "◾️"
+  list["white_medium_small_square"] = "◽️"
+  list["black_medium_square"] = "◼️"
+  list["white_medium_square"] = "◻️"
+  list["black_large_square"] = "⬛️"
+  list["white_large_square"] = "⬜️"
+  list["speaker"] = "🔈"
+  list["mute"] = "🔇"
+  list["sound"] = "🔉"
+  list["loud_sound"] = "🔊"
+  list["bell"] = "🔔"
+  list["no_bell"] = "🔕"
+  list["mega"] = "📣"
+  list["loudspeaker"] = "📢"
+  list["eye_speech_bubble"] = "👁‍🗨"
+  list["speech_balloon"] = "💬"
+  list["thought_balloon"] = "💭"
+  list["right_anger_bubble"] = "🗯"
+  list["spades"] = "♠️"
+  list["clubs"] = "♣️"
+  list["hearts"] = "♥️"
+  list["diamonds"] = "♦️"
+  list["black_joker"] = "🃏"
+  list["flower_playing_cards"] = "🎴"
+  list["mahjong"] = "🀄️"
+  list["clock1"] = "🕐"
+  list["clock2"] = "🕑"
+  list["clock3"] = "🕒"
+  list["clock4"] = "🕓"
+  list["clock5"] = "🕔"
+  list["clock6"] = "🕕"
+  list["clock7"] = "🕖"
+  list["clock8"] = "🕗"
+  list["clock9"] = "🕘"
+  list["clock10"] = "🕙"
+  list["clock11"] = "🕚"
+  list["clock12"] = "🕛"
+  list["clock130"] = "🕜"
+  list["clock230"] = "🕝"
+  list["clock330"] = "🕞"
+  list["clock430"] = "🕟"
+  list["clock530"] = "🕠"
+  list["clock630"] = "🕡"
+  list["clock730"] = "🕢"
+  list["clock830"] = "🕣"
+  list["clock930"] = "🕤"
+  list["clock1030"] = "🕥"
+  list["clock1130"] = "🕦"
+  list["clock1230"] = "🕧"
+  list["white_flag"] = "🏳️"
+  list["black_flag"] = "🏴"
+  list["checkered_flag"] = "🏁"
+  list["triangular_flag_on_post"] = "🚩"
+  list["rainbow_flag"] = "🏳️‍🌈"
+  list["afghanistan"] = "🇦🇫"
+  list["aland_islands"] = "🇦🇽"
+  list["albania"] = "🇦🇱"
+  list["algeria"] = "🇩🇿"
+  list["american_samoa"] = "🇦🇸"
+  list["andorra"] = "🇦🇩"
+  list["angola"] = "🇦🇴"
+  list["anguilla"] = "🇦🇮"
+  list["antarctica"] = "🇦🇶"
+  list["antigua_barbuda"] = "🇦🇬"
+  list["argentina"] = "🇦🇷"
+  list["armenia"] = "🇦🇲"
+  list["aruba"] = "🇦🇼"
+  list["australia"] = "🇦🇺"
+  list["austria"] = "🇦🇹"
+  list["azerbaijan"] = "🇦🇿"
+  list["bahamas"] = "🇧🇸"
+  list["bahrain"] = "🇧🇭"
+  list["bangladesh"] = "🇧🇩"
+  list["barbados"] = "🇧🇧"
+  list["belarus"] = "🇧🇾"
+  list["belgium"] = "🇧🇪"
+  list["belize"] = "🇧🇿"
+  list["benin"] = "🇧🇯"
+  list["bermuda"] = "🇧🇲"
+  list["bhutan"] = "🇧🇹"
+  list["bolivia"] = "🇧🇴"
+  list["caribbean_netherlands"] = "🇧🇶"
+  list["bosnia_herzegovina"] = "🇧🇦"
+  list["botswana"] = "🇧🇼"
+  list["brazil"] = "🇧🇷"
+  list["british_indian_ocean_territory"] = "🇮🇴"
+  list["british_virgin_islands"] = "🇻🇬"
+  list["brunei"] = "🇧🇳"
+  list["bulgaria"] = "🇧🇬"
+  list["burkina_faso"] = "🇧🇫"
+  list["burundi"] = "🇧🇮"
+  list["cape_verde"] = "🇨🇻"
+  list["cambodia"] = "🇰🇭"
+  list["cameroon"] = "🇨🇲"
+  list["canada"] = "🇨🇦"
+  list["canary_islands"] = "🇮🇨"
+  list["cayman_islands"] = "🇰🇾"
+  list["central_african_republic"] = "🇨🇫"
+  list["chad"] = "🇹🇩"
+  list["chile"] = "🇨🇱"
+  list["cn"] = "🇨🇳"
+  list["christmas_island"] = "🇨🇽"
+  list["cocos_islands"] = "🇨🇨"
+  list["colombia"] = "🇨🇴"
+  list["comoros"] = "🇰🇲"
+  list["congo_brazzaville"] = "🇨🇬"
+  list["congo_kinshasa"] = "🇨🇩"
+  list["cook_islands"] = "🇨🇰"
+  list["costa_rica"] = "🇨🇷"
+  list["cote_divoire"] = "🇨🇮"
+  list["croatia"] = "🇭🇷"
+  list["cuba"] = "🇨🇺"
+  list["curacao"] = "🇨🇼"
+  list["cyprus"] = "🇨🇾"
+  list["czech_republic"] = "🇨🇿"
+  list["denmark"] = "🇩🇰"
+  list["djibouti"] = "🇩🇯"
+  list["dominica"] = "🇩🇲"
+  list["dominican_republic"] = "🇩🇴"
+  list["ecuador"] = "🇪🇨"
+  list["egypt"] = "🇪🇬"
+  list["el_salvador"] = "🇸🇻"
+  list["equatorial_guinea"] = "🇬🇶"
+  list["eritrea"] = "🇪🇷"
+  list["estonia"] = "🇪🇪"
+  list["ethiopia"] = "🇪🇹"
+  list["eu"] = "🇪🇺"
+  list["falkland_islands"] = "🇫🇰"
+  list["faroe_islands"] = "🇫🇴"
+  list["fiji"] = "🇫🇯"
+  list["finland"] = "🇫🇮"
+  list["fr"] = "🇫🇷"
+  list["french_guiana"] = "🇬🇫"
+  list["french_polynesia"] = "🇵🇫"
+  list["french_southern_territories"] = "🇹🇫"
+  list["gabon"] = "🇬🇦"
+  list["gambia"] = "🇬🇲"
+  list["georgia"] = "🇬🇪"
+  list["de"] = "🇩🇪"
+  list["ghana"] = "🇬🇭"
+  list["gibraltar"] = "🇬🇮"
+  list["greece"] = "🇬🇷"
+  list["greenland"] = "🇬🇱"
+  list["grenada"] = "🇬🇩"
+  list["guadeloupe"] = "🇬🇵"
+  list["guam"] = "🇬🇺"
+  list["guatemala"] = "🇬🇹"
+  list["guernsey"] = "🇬🇬"
+  list["guinea"] = "🇬🇳"
+  list["guinea_bissau"] = "🇬🇼"
+  list["guyana"] = "🇬🇾"
+  list["haiti"] = "🇭🇹"
+  list["honduras"] = "🇭🇳"
+  list["hong_kong"] = "🇭🇰"
+  list["hungary"] = "🇭🇺"
+  list["iceland"] = "🇮🇸"
+  list["india"] = "🇮🇳"
+  list["indonesia"] = "🇮🇩"
+  list["iran"] = "🇮🇷"
+  list["iraq"] = "🇮🇶"
+  list["ireland"] = "🇮🇪"
+  list["isle_of_man"] = "🇮🇲"
+  list["israel"] = "🇮🇱"
+  list["it"] = "🇮🇹"
+  list["jamaica"] = "🇯🇲"
+  list["jp"] = "🇯🇵"
+  list["crossed_flags"] = "🎌"
+  list["jersey"] = "🇯🇪"
+  list["jordan"] = "🇯🇴"
+  list["kazakhstan"] = "🇰🇿"
+  list["kenya"] = "🇰🇪"
+  list["kiribati"] = "🇰🇮"
+  list["kosovo"] = "🇽🇰"
+  list["kuwait"] = "🇰🇼"
+  list["kyrgyzstan"] = "🇰🇬"
+  list["laos"] = "🇱🇦"
+  list["latvia"] = "🇱🇻"
+  list["lebanon"] = "🇱🇧"
+  list["lesotho"] = "🇱🇸"
+  list["liberia"] = "🇱🇷"
+  list["libya"] = "🇱🇾"
+  list["liechtenstein"] = "🇱🇮"
+  list["lithuania"] = "🇱🇹"
+  list["luxembourg"] = "🇱🇺"
+  list["macau"] = "🇲🇴"
+  list["macedonia"] = "🇲🇰"
+  list["madagascar"] = "🇲🇬"
+  list["malawi"] = "🇲🇼"
+  list["malaysia"] = "🇲🇾"
+  list["maldives"] = "🇲🇻"
+  list["mali"] = "🇲🇱"
+  list["malta"] = "🇲🇹"
+  list["marshall_islands"] = "🇲🇭"
+  list["martinique"] = "🇲🇶"
+  list["mauritania"] = "🇲🇷"
+  list["mauritius"] = "🇲🇺"
+  list["mayotte"] = "🇾🇹"
+  list["mexico"] = "🇲🇽"
+  list["micronesia"] = "🇫🇲"
+  list["moldova"] = "🇲🇩"
+  list["monaco"] = "🇲🇨"
+  list["mongolia"] = "🇲🇳"
+  list["montenegro"] = "🇲🇪"
+  list["montserrat"] = "🇲🇸"
+  list["morocco"] = "🇲🇦"
+  list["mozambique"] = "🇲🇿"
+  list["myanmar"] = "🇲🇲"
+  list["namibia"] = "🇳🇦"
+  list["nauru"] = "🇳🇷"
+  list["nepal"] = "🇳🇵"
+  list["netherlands"] = "🇳🇱"
+  list["new_caledonia"] = "🇳🇨"
+  list["new_zealand"] = "🇳🇿"
+  list["nicaragua"] = "🇳🇮"
+  list["niger"] = "🇳🇪"
+  list["nigeria"] = "🇳🇬"
+  list["niue"] = "🇳🇺"
+  list["norfolk_island"] = "🇳🇫"
+  list["northern_mariana_islands"] = "🇲🇵"
+  list["north_korea"] = "🇰🇵"
+  list["norway"] = "🇳🇴"
+  list["oman"] = "🇴🇲"
+  list["pakistan"] = "🇵🇰"
+  list["palau"] = "🇵🇼"
+  list["palestinian_territories"] = "🇵🇸"
+  list["panama"] = "🇵🇦"
+  list["papua_new_guinea"] = "🇵🇬"
+  list["paraguay"] = "🇵🇾"
+  list["peru"] = "🇵🇪"
+  list["philippines"] = "🇵🇭"
+  list["pitcairn_islands"] = "🇵🇳"
+  list["poland"] = "🇵🇱"
+  list["portugal"] = "🇵🇹"
+  list["puerto_rico"] = "🇵🇷"
+  list["qatar"] = "🇶🇦"
+  list["reunion"] = "🇷🇪"
+  list["romania"] = "🇷🇴"
+  list["ru"] = "🇷🇺"
+  list["rwanda"] = "🇷🇼"
+  list["st_barthelemy"] = "🇧🇱"
+  list["st_helena"] = "🇸🇭"
+  list["st_kitts_nevis"] = "🇰🇳"
+  list["st_lucia"] = "🇱🇨"
+  list["st_pierre_miquelon"] = "🇵🇲"
+  list["st_vincent_grenadines"] = "🇻🇨"
+  list["samoa"] = "🇼🇸"
+  list["san_marino"] = "🇸🇲"
+  list["sao_tome_principe"] = "🇸🇹"
+  list["saudi_arabia"] = "🇸🇦"
+  list["senegal"] = "🇸🇳"
+  list["serbia"] = "🇷🇸"
+  list["seychelles"] = "🇸🇨"
+  list["sierra_leone"] = "🇸🇱"
+  list["singapore"] = "🇸🇬"
+  list["sint_maarten"] = "🇸🇽"
+  list["slovakia"] = "🇸🇰"
+  list["slovenia"] = "🇸🇮"
+  list["solomon_islands"] = "🇸🇧"
+  list["somalia"] = "🇸🇴"
+  list["south_africa"] = "🇿🇦"
+  list["south_georgia_south_sandwich_islands"] = "🇬🇸"
+  list["kr"] = "🇰🇷"
+  list["south_sudan"] = "🇸🇸"
+  list["es"] = "🇪🇸"
+  list["sri_lanka"] = "🇱🇰"
+  list["sudan"] = "🇸🇩"
+  list["suriname"] = "🇸🇷"
+  list["swaziland"] = "🇸🇿"
+  list["sweden"] = "🇸🇪"
+  list["switzerland"] = "🇨🇭"
+  list["syria"] = "🇸🇾"
+  list["taiwan"] = "🇹🇼"
+  list["tajikistan"] = "🇹🇯"
+  list["tanzania"] = "🇹🇿"
+  list["thailand"] = "🇹🇭"
+  list["timor_leste"] = "🇹🇱"
+  list["togo"] = "🇹🇬"
+  list["tokelau"] = "🇹🇰"
+  list["tonga"] = "🇹🇴"
+  list["trinidad_tobago"] = "🇹🇹"
+  list["tunisia"] = "🇹🇳"
+  list["tr"] = "🇹🇷"
+  list["turkmenistan"] = "🇹🇲"
+  list["turks_caicos_islands"] = "🇹🇨"
+  list["tuvalu"] = "🇹🇻"
+  list["uganda"] = "🇺🇬"
+  list["ukraine"] = "🇺🇦"
+  list["united_arab_emirates"] = "🇦🇪"
+  list["gb"] = "🇬🇧"
+  list["us"] = "🇺🇸"
+  list["us_virgin_islands"] = "🇻🇮"
+  list["uruguay"] = "🇺🇾"
+  list["uzbekistan"] = "🇺🇿"
+  list["vanuatu"] = "🇻🇺"
+  list["vatican_city"] = "🇻🇦"
+  list["venezuela"] = "🇻🇪"
+  list["vietnam"] = "🇻🇳"
+  list["wallis_futuna"] = "🇼🇫"
+  list["western_sahara"] = "🇪🇭"
+  list["yemen"] = "🇾🇪"
+  list["zambia"] = "🇿🇲"
+  list["zimbabwe"] = "🇿🇼"
+  list["starstruck"] = "🤩"
+  list["eyebrowraised"] = "🤨"
+  list["mindblown"] = "🤯"
+  list["zany"] = "🤪"
+  list["cursing"] = "🤬"
+  list["vomiting"] = "🤮"
+  list["shushing"] = "🤫"
+  list["giggling"] = "🤭"
+  list["posh"] = "🧐"
+  list["child"] = "🧒"
+  list["adult"] = "🧑"
+  list["senior"] = "🧓"
+  list["headscarf"] = "🧕"
+  list["beard"] = "🧔"
+  list["breastfeeding"] = "🤱"
+  list["mage"] = "🧙"
+  list["fairy"] = "🧚"
+  list["vampire"] = "🧛"
+  list["mermaid"] = "🧜"
+  list["elf"] = "🧝"
+  list["genie"] = "🧞‍♀️"
+  list["zombie"] = "🧟"
+  list["sauna"] = "🧖"
+  list["climber"] = "🧗"
+  list["yoga"] = "🧘"
+  list["ily"] = "🤟"
+  list["praying"] = "🤲"
+  list["brain"] = "🧠"
+  list["orange_heart"] = "🧡"
+  list["scarf"] = "🧣"
+  list["gloves"] = "🧤"
+  list["coat"] = "🧥"
+  list["socks"] = "🧦"
+  list["cap"] = "🧢"
+  list["zebra"] = "🦓"
+  list["giraffe"] = "🦒"
+  list["hedgehog"] = "🦔"
+  list["dino"] = "🦕"
+  list["T-Rex"] = "🦖"
+  list["crickets"] = "🦗"
+  list["coconut"] = "🥥"
+  list["broccoli"] = "🥦"
+  list["pretzel"] = "🥨"
+  list["steak"] = "🥩"
+  list["sandwich"] = "🥪"
+  list["cereal"] = "🥣"
+  list["can"] = "🥫"
+  list["dumpling"] = "🥟"
+  list["fortune_cookie"] = "🥠"
+  list["takeout"] = "🥡"
+  list["pie"] = "🥧"
+  list["softdrink"] = "🥤"
+  list["chopsticks"] = "🥢"
+  list["ufo"] = "🛸"
+  list["sled"] = "🛷"
+  list["curling"] = "🥌"
+  list["England"] = "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+  list["Scotland"] = "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+  list["Wales"] = "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+
+  return list
+}()
 
