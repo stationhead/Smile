@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/**/*'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
   s.resource_bundle = {
-    'Smile' => ['Sources/**/*.json']
-}
+    'Smile' => 'Sources/**/*.json'
+  }
 end
