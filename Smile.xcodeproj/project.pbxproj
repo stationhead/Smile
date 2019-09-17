@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC5C3B0423317092000D63D6 /* Emojis.json in Resources */ = {isa = PBXBuildFile; fileRef = E946254423300ADC008391DA /* Emojis.json */; };
+		AC5C3B0523317092000D63D6 /* Emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = E946254323300ADC008391DA /* Emoji.json */; };
 		D20AFE9C1E5FA5CA00AFB7E9 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AFE9B1E5FA5CA00AFB7E9 /* Sequence.swift */; };
 		D20AFE9D1E5FA5CA00AFB7E9 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AFE9B1E5FA5CA00AFB7E9 /* Sequence.swift */; };
 		D23991E41D10AA3600CA2E5D /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23991E31D10AA3600CA2E5D /* Categories.swift */; };
@@ -22,7 +24,7 @@
 		D5B2E8AA1C3A780C00C0327D /* Smile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Smile.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Smile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Smile.framework */; };
 		E946254523300ADC008391DA /* Emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = E946254323300ADC008391DA /* Emoji.json */; };
-		E946254623300ADC008391DA /* Categories.json in Resources */ = {isa = PBXBuildFile; fileRef = E946254423300ADC008391DA /* Categories.json */; };
+		E946254623300ADC008391DA /* Emojis.json in Resources */ = {isa = PBXBuildFile; fileRef = E946254423300ADC008391DA /* Emojis.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +62,7 @@
 		D5C629901C3A8BDA007F7B7C /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		D5C629911C3A8BDA007F7B7C /* Info-Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Mac.plist"; sourceTree = "<group>"; };
 		E946254323300ADC008391DA /* Emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Emoji.json; sourceTree = "<group>"; };
-		E946254423300ADC008391DA /* Categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Categories.json; sourceTree = "<group>"; };
+		E946254423300ADC008391DA /* Emojis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Emojis.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,7 @@
 		D2DBF1E61D04C70A00166F7B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E946254423300ADC008391DA /* Categories.json */,
+				E946254423300ADC008391DA /* Emojis.json */,
 				E946254323300ADC008391DA /* Emoji.json */,
 				D23991E31D10AA3600CA2E5D /* Categories.swift */,
 				D2DBF1EA1D04D1EB00166F7B /* Emoji.swift */,
@@ -308,7 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E946254523300ADC008391DA /* Emoji.json in Resources */,
-				E946254623300ADC008391DA /* Categories.json in Resources */,
+				E946254623300ADC008391DA /* Emojis.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +325,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5C3B0423317092000D63D6 /* Emojis.json in Resources */,
+				AC5C3B0523317092000D63D6 /* Emoji.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
